@@ -1,0 +1,7 @@
+/bin
+/public_html/core
+/public_html/modules/contrib
+/public_html/profiles/contrib
+/public_html/themes/contrib
+/public_html/sites/default/files
+vendor/
