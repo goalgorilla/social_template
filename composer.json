@@ -30,12 +30,10 @@
     ],
     "scripts": {
       "post-install-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
       ],
       "post-update-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
       ]
     },
     "config": {
