@@ -5,17 +5,6 @@
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require-dev": {
-        "behat/behat": "^3.1",
-        "drupal/drupal-extension": "^3.1",
-        "behat/mink": "~1.6",
-        "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "2.7.*"
-    },
     "require": {
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
@@ -36,21 +25,21 @@
         "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
       ]
     },
-    "config": {
-        "bin-dir": "bin/"
-    },
     "extra": {
         "installer-paths": {
-            "public_html/core": [
+            "html/core": [
                 "drupal/core"
             ],
-            "public_html/modules/contrib/{$name}": [
+            "html/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "public_html/profiles/contrib/{$name}": [
+            "html/profiles/contrib/social": [
+                "goalgorilla/open_social"
+            ],
+            "html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "public_html/themes/contrib/{$name}": [
+            "html/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/contrib/{$name}": [

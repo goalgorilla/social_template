@@ -1,7 +1,8 @@
 /bin
-/public_html/core
-/public_html/modules/contrib
-/public_html/profiles/contrib
-/public_html/themes/contrib
-/public_html/sites/default/files
+/html/core
+/html/modules/contrib
+/html/profiles/contrib
+/html/themes/contrib
+/html/sites/default/files
 vendor/
+.idea
