@@ -19,6 +19,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "scripts": {
@@ -30,6 +34,10 @@
       ]
     },
     "extra": {
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
             "html/core": [
                 "drupal/core"
@@ -45,6 +53,11 @@
             ],
             "html/themes/contrib/{$name}": [
                 "type:drupal-theme"
+            ],
+            "html/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
