@@ -4,5 +4,6 @@
 /html/profiles/contrib
 /html/themes/contrib
 /html/sites/default/files
+/html/libraries
 vendor/
 .idea
