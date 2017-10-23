@@ -154,6 +154,25 @@
             ]
         },
         {
+            "name": "bower-asset/d3",
+            "version": "v3.5.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mbostock-bower/d3-bower.git",
+                "reference": "7a826d211d5067867debf9ce24a9987e0cb02b6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mbostock-bower/d3-bower/zipball/7a826d211d5067867debf9ce24a9987e0cb02b6e",
+                "reference": "7a826d211d5067867debf9ce24a9987e0cb02b6e",
+                "shasum": null
+            },
+            "type": "bower-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
             "name": "bower-asset/eve-raphael",
             "version": "v0.5.0",
             "source": {
@@ -171,6 +190,22 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "bower-asset/highlight",
+            "version": "9.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/isagalaev/highlight.js.git",
+                "reference": "bb1cdfe052cd6c98e0d1d61f16dff9f1d2d57ffc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/isagalaev/highlight.js/zipball/bb1cdfe052cd6c98e0d1d61f16dff9f1d2d57ffc",
+                "reference": "bb1cdfe052cd6c98e0d1d61f16dff9f1d2d57ffc",
+                "shasum": null
+            },
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/jquery",
@@ -255,13 +290,29 @@
             "version": "1.4.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/scottjehl/Respond.git",
+                "url": "git@github.com:scottjehl/Respond.git",
                 "reference": "20b7f4a192bb910c8c7e067b961de38519d334e4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/scottjehl/Respond/zipball/20b7f4a192bb910c8c7e067b961de38519d334e4",
                 "reference": "20b7f4a192bb910c8c7e067b961de38519d334e4",
+                "shasum": null
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/select2",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ivaynberg/select2.git",
+                "reference": "566c7846fbf8c3b7674346f26d0ee872c0a77629"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivaynberg/select2/zipball/566c7846fbf8c3b7674346f26d0ee872c0a77629",
+                "reference": "566c7846fbf8c3b7674346f26d0ee872c0a77629",
                 "shasum": null
             },
             "type": "bower-asset"
@@ -1645,7 +1696,8 @@
             "extra": {
                 "patches_applied": {
                     "Clean up user input for exposed checkboxes": "https://www.drupal.org/files/issues/2687773-18-Cleanup-user-input-for-checkboxes-8.2.patch",
-                    "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch"
+                    "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch",
+                    "Restrict images to this site blocks image style derivatives": "https://www.drupal.org/files/issues/image_restrict_image_styles-2528214-19.patch"
                 }
             },
             "autoload": {
@@ -1917,6 +1969,71 @@
                 "source": "http://cgit.drupalcode.org/dynamic_entity_reference",
                 "issues": "http://drupal.org/project/dynamic_entity_reference",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/embed",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/embed",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "cc746ad807260e01c7788dd82110dcebbb4d678a"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1490755685",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "cs_shadow",
+                    "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Provide a framework for various different types of embeds in WYSIWYG editors, common functionality, interfaces, and standards.",
+            "homepage": "https://www.drupal.org/project/embed",
+            "support": {
+                "source": "http://cgit.drupalcode.org/embed",
+                "issues": "https://www.drupal.org/project/issues/embed",
+                "irc": "irc://irc.freenode.org/drupal-media"
             }
         },
         {
@@ -2457,7 +2574,11 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1478575440"
+                    "datestamp": "1478575440",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2562,7 +2683,7 @@
                 "drupal/core": "*"
             },
             "require-dev": {
-                "drupal/coder": "^2.0",
+                "drupal/coder": "^8.2",
                 "drupal/token": "*"
             },
             "type": "drupal-module",
@@ -2572,7 +2693,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1502381043",
+                    "datestamp": "1508449444",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2635,7 +2756,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1",
-                    "datestamp": "1501189442",
+                    "datestamp": "1507665546",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2741,7 +2862,11 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1486245484"
+                    "datestamp": "1486527783",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2795,22 +2920,23 @@
         },
         {
             "name": "drupal/search_api",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/search_api",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "750555dee199d8ab62a609b394fb11206b8fbe4c"
+                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "e03324c0e2fede8d283db83ec4a5f2ed4b818934"
             },
             "require": {
                 "drupal/core": "^8.3"
             },
             "require-dev": {
+                "drupal/search_api_autocomplete": "@dev",
                 "drupal/search_api_db": "*"
             },
             "type": "drupal-module",
@@ -2819,8 +2945,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1504799343",
+                    "version": "8.x-1.5",
+                    "datestamp": "1507989244",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3104,6 +3230,76 @@
             }
         },
         {
+            "name": "drupal/url_embed",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/url_embed",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/url_embed-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "01a6b3ae79f315318d2b2ff7a37c76db95d3af0b"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/embed": "*",
+                "embed/embed": "~2.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1483115583",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "patches_applied": {
+                    "WSOD if wrong url or network unavailable": "https://www.drupal.org/files/issues/url_embed_WSOD_convert_url_to_embed-2871744-5.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "cs_shadow",
+                    "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Allows embedding of URLs using the Drupal 8 WYSIWYG or link fields.",
+            "homepage": "https://www.drupal.org/project/url_embed",
+            "support": {
+                "source": "http://cgit.drupalcode.org/url_embed",
+                "issues": "https://www.drupal.org/project/issues/url_embed",
+                "irc": "irc://irc.freenode.org/drupal-media"
+            }
+        },
+        {
             "name": "drupal/views_infinite_scroll",
             "version": "1.5.0",
             "source": {
@@ -3344,6 +3540,61 @@
             "time": "2017-02-03T22:48:59+00:00"
         },
         {
+            "name": "embed/embed",
+            "version": "v2.7.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/Embed.git",
+                "reference": "90a6fd4515e816162d00481a2a2fc42af8740e38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/90a6fd4515e816162d00481a2a2fc42af8740e38",
+                "reference": "90a6fd4515e816162d00481a2a2fc42af8740e38",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.12",
+                "guzzlehttp/guzzle": "5.x",
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle@5.x": "To use Guzzle5 request resolver"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Embed\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to retrieve page info using oembed, opengraph, etc",
+            "homepage": "https://github.com/oscarotero/Embed",
+            "keywords": [
+                "embed",
+                "embedly",
+                "oembed",
+                "opengraph",
+                "twitter cards"
+            ],
+            "time": "2016-10-07T18:29:01+00:00"
+        },
+        {
             "name": "facebook/graph-sdk",
             "version": "5.6.1",
             "source": {
@@ -3449,24 +3700,27 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "9d6727d381382d96668eae9259bd4c2d9572ff9c"
+                "reference": "16675eecc85011591ba7f90e4e0290a1499f8012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/9d6727d381382d96668eae9259bd4c2d9572ff9c",
-                "reference": "9d6727d381382d96668eae9259bd4c2d9572ff9c",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/16675eecc85011591ba7f90e4e0290a1499f8012",
+                "reference": "16675eecc85011591ba7f90e4e0290a1499f8012",
                 "shasum": ""
             },
             "require": {
                 "abraham/twitteroauth": "^0.7.2",
                 "bower-asset/autosize": "4.0.0",
                 "bower-asset/bootstrap": "3.3.7",
+                "bower-asset/d3": "v3.5.17",
+                "bower-asset/highlight": "9.7.0",
                 "bower-asset/morris.js": "0.5.1",
                 "bower-asset/raphael": "2.2.7",
+                "bower-asset/select2": "4.0.3",
                 "bower-asset/tablesaw": "2.0.3",
                 "bower-asset/timepicker": "1.11.4",
                 "bower-asset/waves": "0.7.5",
@@ -3483,6 +3737,7 @@
                 "drupal/csv_serialization": "1.0",
                 "drupal/devel": "1.2",
                 "drupal/dynamic_entity_reference": "1.4",
+                "drupal/embed": "1.0",
                 "drupal/entity": "1.0-beta1",
                 "drupal/features": "3.5",
                 "drupal/field_group": "1.0-rc6",
@@ -3497,13 +3752,15 @@
                 "drupal/override_node_options": "2.1",
                 "drupal/profile": "1.0-rc1",
                 "drupal/r4032login": "1.x-dev#4b2077aa70e3f7b00b8a9cba25af5b948ba2e3b9",
-                "drupal/search_api": "1.4",
+                "drupal/search_api": "1.5",
                 "drupal/social_api": "1.1",
                 "drupal/social_auth": "1.0",
                 "drupal/swiftmailer": "1.0-beta1",
                 "drupal/token": "1.0",
+                "drupal/url_embed": "1.0-alpha1",
                 "drupal/views_infinite_scroll": "1.5",
                 "drupal/votingapi": "3.0-alpha2",
+                "embed/embed": "2.7.7",
                 "facebook/graph-sdk": "^5.4",
                 "google/apiclient": "^2.1",
                 "guzzlehttp/psr7": "^1.3",
@@ -3520,13 +3777,17 @@
                 "patches": {
                     "drupal/core": {
                         "Clean up user input for exposed checkboxes": "https://www.drupal.org/files/issues/2687773-18-Cleanup-user-input-for-checkboxes-8.2.patch",
-                        "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch"
+                        "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch",
+                        "Restrict images to this site blocks image style derivatives": "https://www.drupal.org/files/issues/image_restrict_image_styles-2528214-19.patch"
                     },
                     "drupal/like_and_dislike": {
                         "Fix preview on node": "https://www.drupal.org/files/issues/2848080-2-preview-fails-on-node.patch"
                     },
                     "drupal/flag": {
                         "Add relationship to flagged entities when Flagging is base table": "https://www.drupal.org/files/issues/2723703_31.patch"
+                    },
+                    "drupal/url_embed": {
+                        "WSOD if wrong url or network unavailable": "https://www.drupal.org/files/issues/url_embed_WSOD_convert_url_to_embed-2871744-5.patch"
                     }
                 }
             },
@@ -3540,7 +3801,7 @@
                 "GPL-2.0+"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2017-10-09T13:46:16+00:00"
+            "time": "2017-10-23T14:20:19+00:00"
         },
         {
             "name": "google/apiclient",
@@ -3603,16 +3864,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.29",
+            "version": "v0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "d23e00e38b209d5dc60c1bb71c8f065ee5b6823e"
+                "reference": "81eded7af428ae49e1ba8ddb44689fa5995d9bb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/d23e00e38b209d5dc60c1bb71c8f065ee5b6823e",
-                "reference": "d23e00e38b209d5dc60c1bb71c8f065ee5b6823e",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/81eded7af428ae49e1ba8ddb44689fa5995d9bb5",
+                "reference": "81eded7af428ae49e1ba8ddb44689fa5995d9bb5",
                 "shasum": ""
             },
             "require": {
@@ -3636,20 +3897,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2017-10-08T00:22:35+00:00"
+            "time": "2017-10-21T00:23:31+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-auth-library-php.git",
-                "reference": "db8e3022a308cb0e988026d38e67b91a42b41622"
+                "reference": "548d27d670f0236dc5258fa4cdde6e7b63464cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/db8e3022a308cb0e988026d38e67b91a42b41622",
-                "reference": "db8e3022a308cb0e988026d38e67b91a42b41622",
+                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/548d27d670f0236dc5258fa4cdde6e7b63464cfd",
+                "reference": "548d27d670f0236dc5258fa4cdde6e7b63464cfd",
                 "shasum": ""
             },
             "require": {
@@ -3666,9 +3927,6 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "src/"
-                ],
                 "psr-4": {
                     "Google\\Auth\\": "src"
                 }
@@ -3684,7 +3942,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2017-07-31T16:34:40+00:00"
+            "time": "2017-10-10T17:01:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4644,16 +4902,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "34a7699e6f31b1ef4035ee36444407cecf9f56aa"
+                "reference": "f4b6a522dfa1fd1e477c9cfe5909d5b31f098c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/34a7699e6f31b1ef4035ee36444407cecf9f56aa",
-                "reference": "34a7699e6f31b1ef4035ee36444407cecf9f56aa",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f4b6a522dfa1fd1e477c9cfe5909d5b31f098c0b",
+                "reference": "f4b6a522dfa1fd1e477c9cfe5909d5b31f098c0b",
                 "shasum": ""
             },
             "require": {
@@ -4732,7 +4990,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2017-06-05T06:31:10+00:00"
+            "time": "2017-10-23T05:04:54+00:00"
         },
         {
             "name": "psr/cache",
@@ -5473,16 +5731,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698"
+                "reference": "04f62674339602def515bff4bc6901fc1d4951e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
-                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/04f62674339602def515bff4bc6901fc1d4951e8",
+                "reference": "04f62674339602def515bff4bc6901fc1d4951e8",
                 "shasum": ""
             },
             "require": {
@@ -5491,10 +5749,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Apcu\\": ""
+                },
                 "files": [
                     "bootstrap.php"
                 ]
@@ -5522,20 +5783,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-07-05T15:09:33+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "1ea0e08453819ecc7130e1fb0ee10862c2f33ed0"
+                "reference": "7a84ccdb8c953ee274c96dd6bde778d873fc824a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/1ea0e08453819ecc7130e1fb0ee10862c2f33ed0",
-                "reference": "1ea0e08453819ecc7130e1fb0ee10862c2f33ed0",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/7a84ccdb8c953ee274c96dd6bde778d873fc824a",
+                "reference": "7a84ccdb8c953ee274c96dd6bde778d873fc824a",
                 "shasum": ""
             },
             "require": {
@@ -5547,7 +5808,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -5581,20 +5842,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
                 "shasum": ""
             },
             "require": {
@@ -5606,7 +5867,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -5640,20 +5901,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "b7763422a5334c914ef0298ed21b253d25913a6e"
+                "reference": "d7810a14b2c6c1aff415e1bb755f611b3d5327bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/b7763422a5334c914ef0298ed21b253d25913a6e",
-                "reference": "b7763422a5334c914ef0298ed21b253d25913a6e",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/d7810a14b2c6c1aff415e1bb755f611b3d5327bc",
+                "reference": "d7810a14b2c6c1aff415e1bb755f611b3d5327bc",
                 "shasum": ""
             },
             "require": {
@@ -5662,7 +5923,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -5698,20 +5959,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "29b1381d66f16e0581aab0b9f678ccf073288f68"
+                "reference": "b64e7f0c37ecf144ecc16668936eef94e628fbfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/29b1381d66f16e0581aab0b9f678ccf073288f68",
-                "reference": "29b1381d66f16e0581aab0b9f678ccf073288f68",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/b64e7f0c37ecf144ecc16668936eef94e628fbfd",
+                "reference": "b64e7f0c37ecf144ecc16668936eef94e628fbfd",
                 "shasum": ""
             },
             "require": {
@@ -5721,7 +5982,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -5754,7 +6015,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-10-11T12:05:26+00:00"
         },
         {
             "name": "symfony/process",
@@ -6257,16 +6518,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490"
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/2faa791b66bac33ca40031d8bce03b7dc8143490",
-                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/c8664b92a6d5bc229e48b0923486c097e45a7877",
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877",
                 "shasum": ""
             },
             "require": {
@@ -6305,7 +6566,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-09-13T14:47:08+00:00"
+            "time": "2017-10-12T15:24:51+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
