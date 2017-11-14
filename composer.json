@@ -5,6 +5,11 @@
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
     "require": {
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
