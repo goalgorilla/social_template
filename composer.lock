@@ -2846,7 +2846,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1507667643",
+                    "datestamp": "1522490884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2967,7 +2967,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta18",
-                    "datestamp": "1495504085",
+                    "datestamp": "1523692684",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2985,6 +2985,10 @@
                 {
                     "name": "Jaypan",
                     "homepage": "https://www.drupal.org/user/324696"
+                },
+                {
+                    "name": "edutrul",
+                    "homepage": "https://www.drupal.org/user/1621444"
                 }
             ],
             "description": "A private message system for users to send messages to each other",
@@ -3067,7 +3071,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/r4032login",
-                "reference": "391f10d69b9b8c466a2fddac2a6b99f1289e7781"
+                "reference": "b264078b6b4c4740a749c1a663139e3ca7f552a6"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3094,6 +3098,10 @@
                 {
                     "name": "Bevan",
                     "homepage": "https://www.drupal.org/user/49989"
+                },
+                {
+                    "name": "Nixou",
+                    "homepage": "https://www.drupal.org/user/2304734"
                 },
                 {
                     "name": "RobLoach",
@@ -3133,7 +3141,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/r4032login"
             },
-            "time": "2017-02-08T04:20:19+00:00"
+            "time": "2018-04-17T09:58:23+00:00"
         },
         {
             "name": "drupal/search_api",
@@ -4089,16 +4097,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.52",
+            "version": "v0.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "0241c1f3fde173a8c08c4ba23d6078b21c129fe2"
+                "reference": "3b7d2e2c5567fa1d10d97ddece715af3ae8c80ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/0241c1f3fde173a8c08c4ba23d6078b21c129fe2",
-                "reference": "0241c1f3fde173a8c08c4ba23d6078b21c129fe2",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/3b7d2e2c5567fa1d10d97ddece715af3ae8c80ec",
+                "reference": "3b7d2e2c5567fa1d10d97ddece715af3ae8c80ec",
                 "shasum": ""
             },
             "require": {
@@ -4122,26 +4130,26 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-03-24T00:23:04+00:00"
+            "time": "2018-04-15T00:23:16+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.2.1",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-auth-library-php.git",
-                "reference": "da0062d279c9459350808a4fb63dbc08b90d6b90"
+                "reference": "8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/da0062d279c9459350808a4fb63dbc08b90d6b90",
-                "reference": "da0062d279c9459350808a4fb63dbc08b90d6b90",
+                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71",
+                "reference": "8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71",
                 "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
                 "guzzlehttp/guzzle": "~5.3.1|~6.0",
-                "guzzlehttp/psr7": "~1.2",
+                "guzzlehttp/psr7": "^1.2",
                 "php": ">=5.4",
                 "psr/cache": "^1.0",
                 "psr/http-message": "^1.0"
@@ -4169,7 +4177,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2018-01-24T18:28:42+00:00"
+            "time": "2018-04-06T19:26:30+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4721,16 +4729,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.11",
+            "version": "v2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
                 "shasum": ""
             },
             "require": {
@@ -4765,7 +4773,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-09-27T21:40:39+00:00"
+            "time": "2018-04-04T21:24:14+00:00"
         },
         {
             "name": "php-http/curl-client",
@@ -5115,16 +5123,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.10",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "d305b780829ea4252ed9400b3f5937c2c99b51d4"
+                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d305b780829ea4252ed9400b3f5937c2c99b51d4",
-                "reference": "d305b780829ea4252ed9400b3f5937c2c99b51d4",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7053f06f91b3de78e143d430e55a8f7889efc08b",
+                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b",
                 "shasum": ""
             },
             "require": {
@@ -5203,7 +5211,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-02-19T04:29:13+00:00"
+            "time": "2018-04-15T16:55:05+00:00"
         },
         {
             "name": "psr/cache",
@@ -5631,16 +5639,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.6",
+            "version": "v3.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "9b1071f86e79e1999b3d3675d2e0e7684268b9bc"
+                "reference": "9cf7c2271cfb89ef9727db1b740ca77be57bf9d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/9b1071f86e79e1999b3d3675d2e0e7684268b9bc",
-                "reference": "9b1071f86e79e1999b3d3675d2e0e7684268b9bc",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/9cf7c2271cfb89ef9727db1b740ca77be57bf9d7",
+                "reference": "9cf7c2271cfb89ef9727db1b740ca77be57bf9d7",
                 "shasum": ""
             },
             "require": {
@@ -5683,7 +5691,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-28T21:49:22+00:00"
+            "time": "2018-04-03T05:22:50+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -6740,16 +6748,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "debedcfc373a293f9250cc9aa03cf121428c8e78"
+                "reference": "10ef03144902d1955f935fff5346ed52f7d99bcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/debedcfc373a293f9250cc9aa03cf121428c8e78",
-                "reference": "debedcfc373a293f9250cc9aa03cf121428c8e78",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/10ef03144902d1955f935fff5346ed52f7d99bcc",
+                "reference": "10ef03144902d1955f935fff5346ed52f7d99bcc",
                 "shasum": ""
             },
             "require": {
@@ -6758,7 +6766,7 @@
             "require-dev": {
                 "athletic/athletic": "~0.1",
                 "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.6.2"
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
@@ -6781,7 +6789,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-09-13T14:38:50+00:00"
+            "time": "2018-04-12T16:05:42+00:00"
         }
     ],
     "packages-dev": [],
