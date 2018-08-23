@@ -14,7 +14,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "2.4.0",
         "cweagans/composer-patches": "^1.0",
-        "goalgorilla/open_social": "^2.3",
+        "goalgorilla/open_social": "^2.4",
         "doctrine/cache": "1.6.1",
         "doctrine/collections": "1.4.0",
         "doctrine/common": "2.7.2",
