@@ -17,3 +17,14 @@ Composer will create a new directory called DIRECTORY. Inside you will find the 
 ## Learn more about Composer for Drupal
 
 Checkout this [presentation](https://docs.google.com/presentation/d/1gxcxT6o47xVrfsZ7ZSQKjBRT-gfE54A1Z9kjvvGHwCo/edit#slide=id.p) from @ModsUnraveled.
+
+## Issues
+
+### Install issues for Open Social
+[documentation](https://www.drupal.org/docs/8/distributions/open-social/installing-and-updating)
+
+### Installing outside of HTML folder
+[See this issue for more information](https://www.drupal.org/project/social/issues/2792543#comment-11591981)
+
+### Open Social issues
+For any issues with the distribution please create an issue on [drupal.org](https://www.drupal.org/project/issues/social) or find us on slack `#opensocial` on `drupal.slack.com`
