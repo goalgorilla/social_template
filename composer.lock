@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec748c3745ba126403d67faf391cdba9",
+    "content-hash": "89b4bcae13b4392355ea86059229e974",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -2167,7 +2167,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta4",
-                    "datestamp": "1528452184",
+                    "datestamp": "1539272580",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4015,16 +4015,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "10aa392b547bf6532fd5165d8901d58b0c6a67ed"
+                "reference": "df1e5c74e2b5772707a8a33173531b2c36ff0b42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/10aa392b547bf6532fd5165d8901d58b0c6a67ed",
-                "reference": "10aa392b547bf6532fd5165d8901d58b0c6a67ed",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/df1e5c74e2b5772707a8a33173531b2c36ff0b42",
+                "reference": "df1e5c74e2b5772707a8a33173531b2c36ff0b42",
                 "shasum": ""
             },
             "require": {
@@ -4148,7 +4148,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2018-10-04T15:45:52+00:00"
+            "time": "2018-10-12T11:29:17+00:00"
         },
         {
             "name": "google/apiclient",
@@ -4211,16 +4211,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.70",
+            "version": "v0.71",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "759a1a246409eae1c723abc72d817205a1d5549f"
+                "reference": "f066aac8c0ea88cf5880611d589fd1e01c4fd082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/759a1a246409eae1c723abc72d817205a1d5549f",
-                "reference": "759a1a246409eae1c723abc72d817205a1d5549f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f066aac8c0ea88cf5880611d589fd1e01c4fd082",
+                "reference": "f066aac8c0ea88cf5880611d589fd1e01c4fd082",
                 "shasum": ""
             },
             "require": {
@@ -4244,7 +4244,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-09-16T00:22:55+00:00"
+            "time": "2018-10-09T00:22:49+00:00"
         },
         {
             "name": "google/auth",
