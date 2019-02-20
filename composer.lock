@@ -322,7 +322,7 @@
             "version": "1.11.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jonthornton/jquery-timepicker.git",
+                "url": "git@github.com:jonthornton/jquery-timepicker.git",
                 "reference": "b53338cc92270da3750d5c0cc6abe60fb27a0d89"
             },
             "dist": {
@@ -1506,16 +1506,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.9",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d"
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
                 "shasum": ""
             },
             "require": {
@@ -1747,7 +1747,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-08T12:21:40+00:00"
+            "time": "2019-02-20T18:35:01+00:00"
         },
         {
             "name": "drupal/crop",
@@ -1778,6 +1778,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Automated crop integration": "https://www.drupal.org/files/issues/2018-12-16/2830768-crop-automated_crop_integration-45.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3124,17 +3127,17 @@
         },
         {
             "name": "drupal/paragraphs",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "85ba97dd1c602d33fc5904b6e1df5973312afa94"
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "cd93e244f3a78dabdcf362adc31e59aad25b3fae"
             },
             "require": {
                 "drupal/core": "~8",
@@ -3162,8 +3165,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1541009695",
+                    "version": "8.x-1.6",
+                    "datestamp": "1550692525",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3233,7 +3236,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Private message unread messages fix": "https://www.drupal.org/files/issues/2018-06-08/2978324-getthreads-sort-order-2.patch"
+                    "Private message unread messages fix": "https://www.drupal.org/files/issues/2018-06-08/2978324-getthreads-sort-order-2.patch",
+                    "Own send messages are shown as new messages": "https://www.drupal.org/files/issues/2019-02-05/private_message-message_count-2977310-8_0.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4259,16 +4263,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "4.4.0",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "c3639d8aa21b8cbbd1c0c05314c01cc525252eab"
+                "reference": "f34d5349f0f8fcedc151c99cf84391cc52021a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/c3639d8aa21b8cbbd1c0c05314c01cc525252eab",
-                "reference": "c3639d8aa21b8cbbd1c0c05314c01cc525252eab",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/f34d5349f0f8fcedc151c99cf84391cc52021a2e",
+                "reference": "f34d5349f0f8fcedc151c99cf84391cc52021a2e",
                 "shasum": ""
             },
             "require": {
@@ -4292,7 +4296,7 @@
                 "drupal/block_field": "1.0-alpha8",
                 "drupal/bootstrap": "3.17",
                 "drupal/config_update": "1.6",
-                "drupal/core": "~8.6.3",
+                "drupal/core": "~8.6.10",
                 "drupal/crop": "1.5",
                 "drupal/csv_serialization": "1.4.0",
                 "drupal/data_policy": "^1.0",
@@ -4313,7 +4317,7 @@
                 "drupal/link_css": "1.x-dev",
                 "drupal/message": "1.0-rc2",
                 "drupal/override_node_options": "2.4",
-                "drupal/paragraphs": "1.5",
+                "drupal/paragraphs": "1.6",
                 "drupal/private_message": "1.2",
                 "drupal/profile": "1.0-rc1",
                 "drupal/r4032login": "1.1",
@@ -4396,7 +4400,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2019-02-13T15:07:27+00:00"
+            "time": "2019-02-20T20:14:56+00:00"
         },
         {
             "name": "google/apiclient",
@@ -4459,16 +4463,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.83",
+            "version": "v0.86",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9"
+                "reference": "84496e256a7cac3a7817db7ba534829a370a3201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
-                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/84496e256a7cac3a7817db7ba534829a370a3201",
+                "reference": "84496e256a7cac3a7817db7ba534829a370a3201",
                 "shasum": ""
             },
             "require": {
@@ -4492,7 +4496,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-01-30T22:06:40+00:00"
+            "time": "2019-02-20T02:10:11+00:00"
         },
         {
             "name": "google/auth",
@@ -7410,24 +7414,24 @@
         },
         {
             "name": "zaporylie/composer-drupal-optimizations",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zaporylie/composer-drupal-optimizations.git",
-                "reference": "cc5eb9f0b5fa664885765748ce5190c1de7d2571"
+                "reference": "173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/cc5eb9f0b5fa664885765748ce5190c1de7d2571",
-                "reference": "cc5eb9f0b5fa664885765748ce5190c1de7d2571",
+                "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8",
+                "reference": "173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
-                "drupal/core": "^8.5"
+                "composer-plugin-api": "^1.1"
             },
             "require-dev": {
-                "composer/composer": "^1.6"
+                "composer/composer": "^1.6",
+                "phpunit/phpunit": "^6"
             },
             "type": "composer-plugin",
             "extra": {
@@ -7449,7 +7453,7 @@
                 }
             ],
             "description": "Composer plugin to improve composer performance for Drupal projects",
-            "time": "2018-07-15T18:04:58+00:00"
+            "time": "2019-02-20T10:00:17+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
