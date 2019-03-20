@@ -193,12 +193,12 @@
             "version": "9.15.6",
             "source": {
                 "type": "git",
-                "url": "git@github.com:isagalaev/highlight.js.git",
+                "url": "https://github.com/highlightjs/highlight.js.git",
                 "reference": "9cf8120c6a2a5d285af6b62e9b056de3a266959a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/isagalaev/highlight.js/zipball/9cf8120c6a2a5d285af6b62e9b056de3a266959a",
+                "url": "https://api.github.com/repos/highlightjs/highlight.js/zipball/9cf8120c6a2a5d285af6b62e9b056de3a266959a",
                 "reference": "9cf8120c6a2a5d285af6b62e9b056de3a266959a",
                 "shasum": null
             },
@@ -287,12 +287,12 @@
             "version": "4.0.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:ivaynberg/select2.git",
+                "url": "https://github.com/select2/select2.git",
                 "reference": "ebf10c93db7d6d7a0d1330119d4c6f32cbd231d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivaynberg/select2/zipball/ebf10c93db7d6d7a0d1330119d4c6f32cbd231d7",
+                "url": "https://api.github.com/repos/select2/select2/zipball/ebf10c93db7d6d7a0d1330119d4c6f32cbd231d7",
                 "reference": "ebf10c93db7d6d7a0d1330119d4c6f32cbd231d7",
                 "shasum": null
             },
@@ -627,16 +627,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "url": "https://api.github.com/repos/composer/semver/zipball/46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
                 "shasum": ""
             },
             "require": {
@@ -685,7 +685,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30T16:08:34+00:00"
+            "time": "2019-03-19T17:25:45+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -1549,16 +1549,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.10",
+            "version": "8.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "url": "https://api.github.com/repos/drupal/core/zipball/8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
                 "shasum": ""
             },
             "require": {
@@ -1601,7 +1601,7 @@
                 "symfony/translation": "~3.4.0",
                 "symfony/validator": "~3.4.0",
                 "symfony/yaml": "~3.4.5",
-                "twig/twig": "^1.35.0",
+                "twig/twig": "^1.38.2",
                 "typo3/phar-stream-wrapper": "^2.0.1",
                 "zendframework/zend-diactoros": "^1.1",
                 "zendframework/zend-feed": "^2.4"
@@ -1790,7 +1790,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-20T18:35:01+00:00"
+            "time": "2019-03-20T06:01:19+00:00"
         },
         {
             "name": "drupal/crop",
@@ -4313,16 +4313,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "4.6.0",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "d1f5b9b17b8776a95952f613ab16388f9b8ba600"
+                "reference": "63e9f63682ca3ea4a42e0fa72a442d6c745e5bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/d1f5b9b17b8776a95952f613ab16388f9b8ba600",
-                "reference": "d1f5b9b17b8776a95952f613ab16388f9b8ba600",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/63e9f63682ca3ea4a42e0fa72a442d6c745e5bd6",
+                "reference": "63e9f63682ca3ea4a42e0fa72a442d6c745e5bd6",
                 "shasum": ""
             },
             "require": {
@@ -4346,7 +4346,7 @@
                 "drupal/block_field": "1.0-alpha8",
                 "drupal/bootstrap": "3.17",
                 "drupal/config_update": "1.6",
-                "drupal/core": "~8.6.10",
+                "drupal/core": "~8.6.13",
                 "drupal/crop": "1.5",
                 "drupal/csv_serialization": "1.4.0",
                 "drupal/data_policy": "^1.0",
@@ -4394,7 +4394,6 @@
                 "php-http/curl-client": "^1.7",
                 "php-http/message": "^1.7",
                 "swiftmailer/swiftmailer": "v5.4.12",
-                "twig/twig": "1.37.1",
                 "zaporylie/composer-drupal-optimizations": "^1.0"
             },
             "type": "drupal-profile",
@@ -4454,7 +4453,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2019-03-13T16:45:26+00:00"
+            "time": "2019-03-20T17:52:10+00:00"
         },
         {
             "name": "google/apiclient",
@@ -4517,16 +4516,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.89",
+            "version": "v0.90",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "8a285822d48df1650c4c298653aa4961049a1ee8"
+                "reference": "7ec8bd600d813d1307aafb4ab46d97495b4a88cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/8a285822d48df1650c4c298653aa4961049a1ee8",
-                "reference": "8a285822d48df1650c4c298653aa4961049a1ee8",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/7ec8bd600d813d1307aafb4ab46d97495b4a88cf",
+                "reference": "7ec8bd600d813d1307aafb4ab46d97495b4a88cf",
                 "shasum": ""
             },
             "require": {
@@ -4550,7 +4549,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-03-10T00:23:16+00:00"
+            "time": "2019-03-16T00:23:00+00:00"
         },
         {
             "name": "google/auth",
@@ -4993,16 +4992,16 @@
         },
         {
             "name": "masterminds/html5",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Masterminds/html5-php.git",
-                "reference": "b5d892a4bd058d61f736935d32a9c248f11ccc93"
+                "reference": "c961ca6a0a81dc6b55b6859b3f9ea7f402edf9ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/b5d892a4bd058d61f736935d32a9c248f11ccc93",
-                "reference": "b5d892a4bd058d61f736935d32a9c248f11ccc93",
+                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/c961ca6a0a81dc6b55b6859b3f9ea7f402edf9ad",
+                "reference": "c961ca6a0a81dc6b55b6859b3f9ea7f402edf9ad",
                 "shasum": ""
             },
             "require": {
@@ -5019,7 +5018,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -5056,7 +5055,7 @@
                 "serializer",
                 "xml"
             ],
-            "time": "2018-12-27T22:03:43+00:00"
+            "time": "2019-03-10T11:41:28+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7366,16 +7365,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.37.1",
+            "version": "v1.38.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62"
+                "reference": "874adbd9222f928f6998732b25b01b41dff15b0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66be9366c76cbf23e82e7171d47cbfa54a057a62",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/874adbd9222f928f6998732b25b01b41dff15b0c",
+                "reference": "874adbd9222f928f6998732b25b01b41dff15b0c",
                 "shasum": ""
             },
             "require": {
@@ -7390,7 +7389,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.37-dev"
+                    "dev-master": "1.38-dev"
                 }
             },
             "autoload": {
@@ -7428,7 +7427,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-01-14T14:59:29+00:00"
+            "time": "2019-03-12T18:45:24+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
