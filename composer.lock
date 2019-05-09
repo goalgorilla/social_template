@@ -1369,12 +1369,16 @@
                 {
                     "name": "jrockowitz",
                     "homepage": "https://www.drupal.org/user/371407"
+                },
+                {
+                    "name": "michaellander",
+                    "homepage": "https://www.drupal.org/user/636494"
                 }
             ],
             "description": "Provides a field that allows a content entity to create and configure custom block instances.",
             "homepage": "https://www.drupal.org/project/block_field",
             "support": {
-                "source": "http://cgit.drupalcode.org/block_field"
+                "source": "https://git.drupalcode.org/project/block_field"
             }
         },
         {
@@ -1408,6 +1412,7 @@
                     }
                 },
                 "patches_applied": {
+                    "Dropdown toggle variable ignored when using links__dropbutton": "https://www.drupal.org/files/issues/2018-12-19/dropdown-without-default-button-3021413-2.patch",
                     "JSDeliver issues unsupported operand types": "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
                 }
             },
@@ -1430,10 +1435,6 @@
                     "name": "Fabiano Sant'Ana (wundo)",
                     "homepage": "https://www.drupal.org/u/wundo",
                     "role": "Co-maintainer"
-                },
-                {
-                    "name": "wundo",
-                    "homepage": "https://www.drupal.org/user/25523"
                 }
             ],
             "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
@@ -1493,7 +1494,7 @@
             "description": "Provides basic revert and update functionality for other modules",
             "homepage": "https://www.drupal.org/project/config_update",
             "support": {
-                "source": "http://cgit.drupalcode.org/config_update"
+                "source": "https://git.drupalcode.org/project/config_update"
             }
         },
         {
@@ -1798,7 +1799,7 @@
             "description": "Provides storage and API for image crops.",
             "homepage": "https://www.drupal.org/project/crop",
             "support": {
-                "source": "http://cgit.drupalcode.org/crop",
+                "source": "https://git.drupalcode.org/project/crop",
                 "issues": "https://www.drupal.org/project/issues/crop"
             }
         },
@@ -1847,7 +1848,7 @@
             "description": "Provides CSV as a serialization format.",
             "homepage": "https://www.drupal.org/project/csv_serialization",
             "support": {
-                "source": "http://cgit.drupalcode.org/csv_serialization"
+                "source": "https://git.drupalcode.org/project/csv_serialization"
             }
         },
         {
@@ -2004,26 +2005,26 @@
                 "GDPR"
             ],
             "support": {
-                "source": "http://cgit.drupalcode.org/data_policy"
+                "source": "https://git.drupalcode.org/project/data_policy"
             }
         },
         {
             "name": "drupal/devel",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/devel.git",
-                "reference": "8.x-2.0"
+                "reference": "8.x-2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/devel-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "cf5fb816f767f3cac4f2e170ab39e982d5e0698b"
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "8f735892922aa5f228e681e645e5f02b1c008f14"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "symfony/var-dumper": "~2.7|^3"
+                "symfony/var-dumper": "~2.7|^3|^4"
             },
             "type": "drupal-module",
             "extra": {
@@ -2031,7 +2032,7 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0",
+                    "version": "8.x-2.1",
                     "datestamp": "1556799496",
                     "security-coverage": {
                         "status": "covered",
@@ -2211,7 +2212,7 @@
             "description": "Provide a framework for various different types of embeds in WYSIWYG editors, common functionality, interfaces, and standards.",
             "homepage": "https://www.drupal.org/project/embed",
             "support": {
-                "source": "http://cgit.drupalcode.org/embed",
+                "source": "https://git.drupalcode.org/project/embed",
                 "issues": "https://www.drupal.org/project/issues/embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -2334,7 +2335,7 @@
             "description": "Adds a Entity Reference field type with revision support.",
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
-                "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
             }
         },
         {
@@ -2381,7 +2382,7 @@
             "description": "Rotates images per their EXIF Orientation",
             "homepage": "https://www.drupal.org/project/exif_orientation",
             "support": {
-                "source": "http://cgit.drupalcode.org/exif_orientation"
+                "source": "https://git.drupalcode.org/project/exif_orientation"
             }
         },
         {
@@ -2462,7 +2463,7 @@
             "description": "Enables administrators to package configuration into modules",
             "homepage": "https://www.drupal.org/project/features",
             "support": {
-                "source": "http://cgit.drupalcode.org/features"
+                "source": "https://git.drupalcode.org/project/features"
             }
         },
         {
@@ -2525,7 +2526,7 @@
             "description": "Provides the field_group module.",
             "homepage": "https://www.drupal.org/project/field_group",
             "support": {
-                "source": "http://cgit.drupalcode.org/field_group"
+                "source": "https://git.drupalcode.org/project/field_group"
             }
         },
         {
@@ -2578,7 +2579,7 @@
             "description": "Provides a service to manage file metadata.",
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
-                "source": "http://cgit.drupalcode.org/file_mdm"
+                "source": "https://git.drupalcode.org/project/file_mdm"
             }
         },
         {
@@ -2618,7 +2619,7 @@
             "description": "Provides a file metadata plugin for EXIF image information.",
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
-                "source": "http://cgit.drupalcode.org/file_mdm"
+                "source": "https://git.drupalcode.org/project/file_mdm"
             }
         },
         {
@@ -2658,7 +2659,7 @@
             "description": "Provides a file metadata plugin for TTF/OTF/WOFF font information.",
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
-                "source": "http://cgit.drupalcode.org/file_mdm"
+                "source": "https://git.drupalcode.org/project/file_mdm"
             }
         },
         {
@@ -2739,7 +2740,7 @@
             "description": "Create customized flags that users can set on entities.",
             "homepage": "https://www.drupal.org/project/flag",
             "support": {
-                "source": "http://cgit.drupalcode.org/flag"
+                "source": "https://git.drupalcode.org/project/flag"
             }
         },
         {
@@ -2774,7 +2775,9 @@
                 },
                 "patches_applied": {
                     "Add computed field for Group reference": "https://www.drupal.org/files/issues/add-computed-field-without-FieldItemListComputedInterface-2718195-34.patch",
-                    "Add permission to view group overview": "https://www.drupal.org/files/issues/group-2943564-2.patch"
+                    "Add permission to view group overview": "https://www.drupal.org/files/issues/group-2943564-2.patch",
+                    "Use VBO together with group permission": "https://www.drupal.org/files/issues/2018-12-18/vbo-and-group-permission-3020883-5.patch",
+                    "Ability to use group tokens in node context": "https://www.drupal.org/files/issues/2018-12-19/group-2774827-41-gnode-tokens.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2794,7 +2797,7 @@
             "description": "This module allows you to group users, content and other entities",
             "homepage": "https://www.drupal.org/project/group",
             "support": {
-                "source": "http://cgit.drupalcode.org/group"
+                "source": "https://git.drupalcode.org/project/group"
             }
         },
         {
@@ -2854,7 +2857,7 @@
             "description": "Provides effects and operations for the Image API.",
             "homepage": "https://www.drupal.org/project/image_effects",
             "support": {
-                "source": "http://cgit.drupalcode.org/image_effects"
+                "source": "https://git.drupalcode.org/project/image_effects"
             }
         },
         {
@@ -3041,7 +3044,7 @@
             "description": "Include CSS files using <link> element instead of @import.",
             "homepage": "https://www.drupal.org/project/link_css",
             "support": {
-                "source": "http://cgit.drupalcode.org/link_css"
+                "source": "https://git.drupalcode.org/project/link_css"
             },
             "time": "2016-11-08T03:19:30+00:00"
         },
@@ -3090,6 +3093,10 @@
                     "homepage": "https://www.drupal.org/user/84263"
                 },
                 {
+                    "name": "Manuel Garcia",
+                    "homepage": "https://www.drupal.org/user/213194"
+                },
+                {
                     "name": "Nafes",
                     "homepage": "https://www.drupal.org/user/2489926"
                 },
@@ -3105,7 +3112,7 @@
             "description": "Mail System",
             "homepage": "https://www.drupal.org/project/mailsystem",
             "support": {
-                "source": "http://cgit.drupalcode.org/mailsystem"
+                "source": "https://git.drupalcode.org/project/mailsystem"
             }
         },
         {
@@ -3172,7 +3179,7 @@
             "description": "Message",
             "homepage": "https://www.drupal.org/project/message",
             "support": {
-                "source": "http://cgit.drupalcode.org/message"
+                "source": "https://git.drupalcode.org/project/message"
             }
         },
         {
@@ -3288,7 +3295,7 @@
             "description": "Allows permissions to be set on each node option such as published and authoring information.",
             "homepage": "https://www.drupal.org/project/override_node_options",
             "support": {
-                "source": "http://cgit.drupalcode.org/override_node_options"
+                "source": "https://git.drupalcode.org/project/override_node_options"
             }
         },
         {
@@ -3488,7 +3495,7 @@
             "description": "A private message system for users to send messages to each other",
             "homepage": "https://www.drupal.org/project/private_message",
             "support": {
-                "source": "http://cgit.drupalcode.org/private_message"
+                "source": "https://git.drupalcode.org/project/private_message"
             }
         },
         {
@@ -3555,7 +3562,7 @@
             "description": "Provides configurable user profiles.",
             "homepage": "http://drupal.org/project/profile",
             "support": {
-                "source": "http://cgit.drupalcode.org/profile"
+                "source": "https://git.drupalcode.org/project/profile"
             }
         },
         {
@@ -3638,7 +3645,7 @@
             "description": "Redirect anonymous users from 403 Access Denied pages to the /user/login page.",
             "homepage": "https://www.drupal.org/project/r4032login",
             "support": {
-                "source": "http://cgit.drupalcode.org/r4032login"
+                "source": "https://git.drupalcode.org/project/r4032login"
             }
         },
         {
@@ -3729,7 +3736,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.12",
-                    "datestamp": "1557244685",
+                    "datestamp": "1552334285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3953,7 +3960,7 @@
             "description": "Allows login using different social networking services",
             "homepage": "https://www.drupal.org/project/social_auth",
             "support": {
-                "source": "http://cgit.drupalcode.org/social_auth"
+                "source": "https://git.drupalcode.org/project/social_auth"
             }
         },
         {
@@ -4014,7 +4021,7 @@
             "description": "Swiftmailer",
             "homepage": "https://www.drupal.org/project/swiftmailer",
             "support": {
-                "source": "http://cgit.drupalcode.org/swiftmailer"
+                "source": "https://git.drupalcode.org/project/swiftmailer"
             }
         },
         {
@@ -4081,7 +4088,7 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "support": {
-                "source": "http://cgit.drupalcode.org/token"
+                "source": "https://git.drupalcode.org/project/token"
             }
         },
         {
@@ -4151,7 +4158,7 @@
             "description": "Allows embedding of URLs using the Drupal 8 WYSIWYG or link fields.",
             "homepage": "https://www.drupal.org/project/url_embed",
             "support": {
-                "source": "http://cgit.drupalcode.org/url_embed",
+                "source": "https://git.drupalcode.org/project/url_embed",
                 "issues": "https://www.drupal.org/project/issues/url_embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -4263,18 +4270,18 @@
             ],
             "authors": [
                 {
-                    "name": "Remon",
-                    "homepage": "https://www.drupal.org/user/143827"
+                    "name": "Bobík",
+                    "homepage": "https://www.drupal.org/user/123612"
                 },
                 {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
+                    "name": "Remon",
+                    "homepage": "https://www.drupal.org/user/143827"
                 }
             ],
             "description": "A pager which allows an infinite scroll effect for views.",
             "homepage": "https://www.drupal.org/project/views_infinite_scroll",
             "support": {
-                "source": "http://cgit.drupalcode.org/views_infinite_scroll"
+                "source": "https://git.drupalcode.org/project/views_infinite_scroll"
             }
         },
         {
@@ -4616,16 +4623,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "5.3.0",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "3905f8520d4334ac1ea7bcc13e3c863d5f3d69e6"
+                "reference": "6ea7a9b0c900f61137ecefa29c9f36b00aec3f90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/3905f8520d4334ac1ea7bcc13e3c863d5f3d69e6",
-                "reference": "3905f8520d4334ac1ea7bcc13e3c863d5f3d69e6",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/6ea7a9b0c900f61137ecefa29c9f36b00aec3f90",
+                "reference": "6ea7a9b0c900f61137ecefa29c9f36b00aec3f90",
                 "shasum": ""
             },
             "require": {
@@ -4653,7 +4660,7 @@
                 "drupal/csv_serialization": "1.4.0",
                 "drupal/ctools": "3.0",
                 "drupal/data_policy": "^1.0",
-                "drupal/devel": "2.0",
+                "drupal/devel": "2.1",
                 "drupal/dynamic_entity_reference": "1.7",
                 "drupal/embed": "1.0",
                 "drupal/entity": "1.0-rc2",
@@ -4750,6 +4757,9 @@
                     "drupal/bootstrap": {
                         "Dropdown toggle variable ignored when using links__dropbutton": "https://www.drupal.org/files/issues/2018-12-19/dropdown-without-default-button-3021413-2.patch",
                         "JSDeliver issues unsupported operand types": "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
+                    },
+                    "drupal/message": {
+                        "Notice: Undefined index: value in MessageTemplate->getText()": "https://www.drupal.org/files/issues/2018-09-16/undefined-index-value-3000026-2.patch"
                     }
                 }
             },
@@ -4764,7 +4774,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2019-05-08T19:15:07+00:00"
+            "time": "2019-05-09T10:17:28+00:00"
         },
         {
             "name": "google/apiclient",
@@ -7142,7 +7152,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -7323,6 +7333,61 @@
                 }
             ],
             "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
             "homepage": "https://symfony.com",
             "keywords": [
                 "compatibility",
@@ -7758,38 +7823,45 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.4.27",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "ca5fef348a0440411bbca0f9ec14e9a11625bd6a"
+                "reference": "3c4084cb1537c0e2ad41aad622bbf55a44a5c9ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ca5fef348a0440411bbca0f9ec14e9a11625bd6a",
-                "reference": "ca5fef348a0440411bbca0f9ec14e9a11625bd6a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/3c4084cb1537c0e2ad41aad622bbf55a44a5c9ce",
+                "reference": "3c4084cb1537c0e2ad41aad622bbf55a44a5c9ce",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php72": "~1.5"
             },
             "conflict": {
-                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                "symfony/console": "<3.4"
             },
             "require-dev": {
                 "ext-iconv": "*",
+                "symfony/console": "~3.4|~4.0",
+                "symfony/process": "~3.4|~4.0",
                 "twig/twig": "~1.34|~2.4"
             },
             "suggest": {
                 "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
                 "ext-intl": "To show region name in time zone dump",
-                "ext-symfony_debug": ""
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
             },
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -7823,7 +7895,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-05-01T09:52:10+00:00"
+            "time": "2019-05-01T12:55:36+00:00"
         },
         {
             "name": "symfony/yaml",
