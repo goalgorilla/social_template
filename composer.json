@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "composer/installers": "^1.0",
-        "drupal-composer/drupal-scaffold": "~2.5.4",
+        "drupal-composer/drupal-scaffold": "^2.6.1",
         "cweagans/composer-patches": "^1.0",
         "goalgorilla/open_social": "^6.0",
         "doctrine/cache": "1.6.1",
