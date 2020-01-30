@@ -10,12 +10,7 @@
         "drupal-composer/drupal-scaffold": "^2.6.1",
         "cweagans/composer-patches": "^1.0",
         "goalgorilla/open_social": "^7.0",
-        "doctrine/cache": "1.6.1",
-        "doctrine/collections": "1.4.0",
-        "doctrine/common": "2.7.2",
-        "php": "^5.6 || ^7.0",
-        "doctrine/inflector": "1.1.0",
-        "doctrine/lexer": "1.0.2",
+        "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
     "repositories": [
