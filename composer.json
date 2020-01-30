@@ -5,13 +5,16 @@
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+      "sort-packages": true
+    },
     "require": {
         "composer/installers": "^1.0",
-        "drupal-composer/drupal-scaffold": "^2.6.1",
         "cweagans/composer-patches": "^1.0",
-        "goalgorilla/open_social": "^7.0",
-        "php": "^7.2",
-        "monolog/monolog": "^1.17"
+        "drupal-composer/drupal-scaffold": "^2.6.1",
+        "drupal/social": "^7.0",
+        "monolog/monolog": "^1.17",
+        "php": "^7.2"
     },
     "repositories": [
         {
