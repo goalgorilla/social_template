@@ -9,7 +9,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.6.1",
         "cweagans/composer-patches": "^1.0",
-        "goalgorilla/open_social": "^7.0",
+        "goalgorilla/open_social": "^7.3",
         "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
