@@ -30,9 +30,4 @@ Checkout this [presentation](https://docs.google.com/presentation/d/1gxcxT6o47xV
 For any issues with the platform we kindly ask you to use the [drupal.org](http://www.drupal.org/project/issues/social) issue queue. This way we can centralise all the information and make the feedback available for other users for documentation purposes. Next to giving people the credit they deserve.
 
 ### **Slack**
-We are also available on Slack. Visit https://www.drupal.org/slack to see how you can join Drupal Slack. After that you can find us in the #opensocial channel. Our team will be available to answer your questions during our community hours there too.
-
-### **Community hours**
- Every week we are available on Slack on:
- - Wednesday between 16:00 and 17:00 Europe/Amsterdam Timezone
-- Friday between 10:00 and 11:00 Europe/Amsterdam Timezone
+If you have a quick question, we are also available on Slack. Visit https://www.drupal.org/slack to see how you can join Drupal Slack. After that you can find us in the #opensocial channel. We try to keep an eye on this channel but it may take a bit of time to get to you. For bug reports or longer questions, please use the Issue queue on Drupal.org so others can find the answers too.
