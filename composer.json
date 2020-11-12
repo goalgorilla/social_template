@@ -6,9 +6,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "composer/installers": "^1.0",
-        "drupal-composer/drupal-scaffold": "^2.6.1",
-        "cweagans/composer-patches": "^1.0",
         "goalgorilla/open_social": "~9.0",
         "php": "^7.2",
         "monolog/monolog": "^1.17"
@@ -23,15 +20,12 @@
             "url": "https://asset-packagist.org"
         }
     ],
-    "scripts": {
-      "post-install-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-      ],
-      "post-update-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-      ]
-    },
     "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "html/"
+            }
+        },
         "installer-types": [
             "bower-asset",
             "npm-asset"
