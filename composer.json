@@ -10,6 +10,15 @@
         "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
+    "scripts": {
+      "this-is-a-comment": "The Plugin::scaffold post-*-cmd can be removed when upgrading to Open Social 10.0",
+      "post-install-cmd": [
+        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+      ],
+      "post-update-cmd": [
+        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+      ]
+    },
     "repositories": [
         {
             "type": "composer",
