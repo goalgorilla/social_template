@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/social": "^10.0",
+        "goalgorilla/open_social": "~10.0.0",
         "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
