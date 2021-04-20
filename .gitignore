@@ -26,3 +26,5 @@ vendor/
 /html/robots.txt
 /html/update.php
 /html/web.config
+/.editorconfig
+/.gitattributes
