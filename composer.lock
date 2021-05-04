@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f8fe0caf8263d919e0e5c3cd625a385",
+    "content-hash": "9a3442328f5bb48d164aa0546cdeb05d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -203,16 +203,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
                 "shasum": ""
             },
             "require": {
@@ -306,6 +306,7 @@
                 "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
                 "modx",
                 "moodle",
@@ -323,6 +324,7 @@
                 "sydes",
                 "sylius",
                 "symfony",
+                "tastyigniter",
                 "typo3",
                 "wordpress",
                 "yawik",
@@ -331,7 +333,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.10.0"
+                "source": "https://github.com/composer/installers/tree/v1.11.0"
             },
             "funding": [
                 {
@@ -347,7 +349,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-14T11:07:16+00:00"
+            "time": "2021-04-28T06:42:17+00:00"
         },
         {
             "name": "composer/semver",
@@ -549,40 +551,39 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "1.10.2",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "13e3381b25847283a91948d04640543941309727"
+                "reference": "a9c1b59eba5a08ca2770a76eddb88922f504e8e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/13e3381b25847283a91948d04640543941309727",
-                "reference": "13e3381b25847283a91948d04640543941309727",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/a9c1b59eba5a08ca2770a76eddb88922f504e8e0",
+                "reference": "a9c1b59eba5a08ca2770a76eddb88922f504e8e0",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.1 || ^8.0"
             },
             "conflict": {
-                "doctrine/common": ">2.2,<2.4"
+                "doctrine/common": ">2.2,<2.4",
+                "psr/cache": ">=3"
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
-                "doctrine/coding-standard": "^6.0",
+                "cache/integration-tests": "dev-master",
+                "doctrine/coding-standard": "^8.0",
                 "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^7.0",
-                "predis/predis": "~1.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "predis/predis": "~1.0",
+                "psr/cache": "^1.0 || ^2.0",
+                "symfony/cache": "^4.4 || ^5.2"
             },
             "suggest": {
                 "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.9.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
@@ -629,7 +630,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/cache/issues",
-                "source": "https://github.com/doctrine/cache/tree/1.10.x"
+                "source": "https://github.com/doctrine/cache/tree/1.11.0"
             },
             "funding": [
                 {
@@ -645,7 +646,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-07T18:54:01+00:00"
+            "time": "2021-04-13T14:46:17+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -1416,6 +1417,90 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/advancedqueue",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/advancedqueue.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "88b894ca65423544d096697c4045185dfd1873fe"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1582887433",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
+                    "name": "Kazanir",
+                    "homepage": "https://www.drupal.org/user/2279698"
+                },
+                {
+                    "name": "amitaibu",
+                    "homepage": "https://www.drupal.org/user/57511"
+                },
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jsacksick",
+                    "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "laurentchardin",
+                    "homepage": "https://www.drupal.org/user/87775"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                },
+                {
+                    "name": "pjcdawkins",
+                    "homepage": "https://www.drupal.org/user/1025236"
+                },
+                {
+                    "name": "rszrama",
+                    "homepage": "https://www.drupal.org/user/49344"
+                },
+                {
+                    "name": "skipyT",
+                    "homepage": "https://www.drupal.org/user/350126"
+                }
+            ],
+            "description": "Provides a better Queue API.",
+            "homepage": "https://www.drupal.org/project/advancedqueue",
+            "support": {
+                "source": "https://git.drupalcode.org/project/advancedqueue"
             }
         },
         {
@@ -4738,6 +4823,75 @@
             }
         },
         {
+            "name": "drupal/ultimate_cron",
+            "version": "2.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ultimate_cron.git",
+                "reference": "8.x-2.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ultimate_cron-8.x-2.0-alpha5.zip",
+                "reference": "8.x-2.0-alpha5",
+                "shasum": "0f10464fff29eca89024e7afa5b6d8d07bd52f75"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha5",
+                    "datestamp": "1600928948",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dane Powell",
+                    "homepage": "https://www.drupal.org/user/339326"
+                },
+                {
+                    "name": "Primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                },
+                {
+                    "name": "arnested",
+                    "homepage": "https://www.drupal.org/user/245635"
+                },
+                {
+                    "name": "gielfeldt",
+                    "homepage": "https://www.drupal.org/user/366993"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Ultimate cron",
+            "homepage": "https://www.drupal.org/project/ultimate_cron",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ultimate_cron"
+            }
+        },
+        {
             "name": "drupal/update_helper",
             "version": "1.3.0",
             "source": {
@@ -5259,16 +5413,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.0.7",
+            "version": "10.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "c66adb3f0d3a062244212acadaf3a6552626fd24"
+                "reference": "955168ade5170dd4980acfc0f17909ffff66bb21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/c66adb3f0d3a062244212acadaf3a6552626fd24",
-                "reference": "c66adb3f0d3a062244212acadaf3a6552626fd24",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/955168ade5170dd4980acfc0f17909ffff66bb21",
+                "reference": "955168ade5170dd4980acfc0f17909ffff66bb21",
                 "shasum": ""
             },
             "require": {
@@ -5276,6 +5430,7 @@
                 "cweagans/composer-patches": "^1.6.0",
                 "drupal/address": "1.7",
                 "drupal/admin_toolbar": "1.27",
+                "drupal/advancedqueue": "^1.0@RC",
                 "drupal/ajax_comments": "^1.0",
                 "drupal/better_exposed_filters": "3.0-alpha6",
                 "drupal/block_field": "1.0-alpha8",
@@ -5321,6 +5476,7 @@
                 "drupal/socialblue": "^1.0",
                 "drupal/swiftmailer": "2.0-beta1",
                 "drupal/token": "1.5",
+                "drupal/ultimate_cron": "^2.0@alpha",
                 "drupal/update_helper": "1.3",
                 "drupal/url_embed": "1.0-beta1",
                 "drupal/views_bulk_operations": "3.4",
@@ -5349,6 +5505,9 @@
                 "swiftmailer/swiftmailer": "6.2.4",
                 "webonyx/graphql-php": ">=14.5.0",
                 "zaporylie/composer-drupal-optimizations": "^1.0"
+            },
+            "replace": {
+                "drupal/social": "self.version"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "~0.6 || ~0.7",
@@ -5459,9 +5618,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.0.7"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.1.1"
             },
-            "time": "2021-04-20T07:06:26+00:00"
+            "time": "2021-05-04T08:11:29+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5591,16 +5750,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
                 "shasum": ""
             },
             "require": {
@@ -5660,9 +5819,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.1"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
-            "time": "2021-03-21T16:25:00+00:00"
+            "time": "2021-04-26T09:17:50+00:00"
         },
         {
             "name": "html2text/html2text",
@@ -7173,16 +7332,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
@@ -7206,7 +7365,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -7217,9 +7376,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.3"
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "time": "2020-03-23T09:12:05+00:00"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7611,16 +7770,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
+                "reference": "59a684f5ac454f066ecbe6daecce6719aed283fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/59a684f5ac454f066ecbe6daecce6719aed283fb",
+                "reference": "59a684f5ac454f066ecbe6daecce6719aed283fb",
                 "shasum": ""
             },
             "require": {
@@ -7656,7 +7815,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.2.4"
+                "source": "https://github.com/symfony/css-selector/tree/v5.3.0-BETA1"
             },
             "funding": [
                 {
@@ -7672,20 +7831,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T10:01:46+00:00"
+            "time": "2021-04-07T16:07:52+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.20",
+            "version": "v4.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "157bbec4fd773bae53c5483c50951a5530a2cc16"
+                "reference": "45b2136377cca5f10af858968d6079a482bca473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/157bbec4fd773bae53c5483c50951a5530a2cc16",
-                "reference": "157bbec4fd773bae53c5483c50951a5530a2cc16",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/45b2136377cca5f10af858968d6079a482bca473",
+                "reference": "45b2136377cca5f10af858968d6079a482bca473",
                 "shasum": ""
             },
             "require": {
@@ -7725,7 +7884,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.20"
+                "source": "https://github.com/symfony/debug/tree/v4.4.22"
             },
             "funding": [
                 {
@@ -7741,7 +7900,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-28T16:54:48+00:00"
+            "time": "2021-04-02T07:50:12+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -9266,16 +9425,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.21",
+            "version": "v4.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "0da0e174f728996f5d5072d6a9f0a42259dbc806"
+                "reference": "c194bcedde6295f3ec3e9eba1f5d484ea97c41a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0da0e174f728996f5d5072d6a9f0a42259dbc806",
-                "reference": "0da0e174f728996f5d5072d6a9f0a42259dbc806",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/c194bcedde6295f3ec3e9eba1f5d484ea97c41a7",
+                "reference": "c194bcedde6295f3ec3e9eba1f5d484ea97c41a7",
                 "shasum": ""
             },
             "require": {
@@ -9335,7 +9494,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v4.4.21"
+                "source": "https://github.com/symfony/var-dumper/tree/v4.4.22"
             },
             "funding": [
                 {
@@ -9351,7 +9510,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-27T19:49:03+00:00"
+            "time": "2021-04-19T13:36:17+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -9612,16 +9771,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.6.1",
+            "version": "v14.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "cb54f64b972f8071835721848ddd74415aba31d9"
+                "reference": "bcbb6926bbf2d0cf466c63d0b9edc90e44d5dd3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/cb54f64b972f8071835721848ddd74415aba31d9",
-                "reference": "cb54f64b972f8071835721848ddd74415aba31d9",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/bcbb6926bbf2d0cf466c63d0b9edc90e44d5dd3f",
+                "reference": "bcbb6926bbf2d0cf466c63d0b9edc90e44d5dd3f",
                 "shasum": ""
             },
             "require": {
@@ -9666,7 +9825,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.6.1"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.6.2"
             },
             "funding": [
                 {
@@ -9674,7 +9833,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-03-29T15:04:45+00:00"
+            "time": "2021-04-23T09:26:03+00:00"
         },
         {
             "name": "zaporylie/composer-drupal-optimizations",
