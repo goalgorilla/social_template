@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04bebb8b5d604c577d17343621ca89bb",
+    "content-hash": "a166a6b10cbd6e6de79ec8bba24fae33",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1423,17 +1423,17 @@
         },
         {
             "name": "drupal/advancedqueue",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/advancedqueue.git",
-                "reference": "8.x-1.0-rc1"
+                "reference": "8.x-1.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc1.zip",
-                "reference": "8.x-1.0-rc1",
-                "shasum": "88b894ca65423544d096697c4045185dfd1873fe"
+                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "9ec5422d0220ad30f670daf64812b36b5bed56a5"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -1441,8 +1441,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1582887433",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1624393873",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -1473,6 +1473,10 @@
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
                 },
                 {
                     "name": "jsacksick",
@@ -2292,17 +2296,17 @@
         },
         {
             "name": "drupal/data_policy",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/data_policy.git",
-                "reference": "8.x-1.0-rc1"
+                "reference": "8.x-1.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/data_policy-8.x-1.0-rc1.zip",
-                "reference": "8.x-1.0-rc1",
-                "shasum": "14298ce9e7207a8c0ab8d470f6da3a21a75ca7ca"
+                "url": "https://ftp.drupal.org/files/projects/data_policy-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "10f68af761418c64266a4f57221c047b0b8ac030"
             },
             "require": {
                 "drupal/core": "^8"
@@ -2314,8 +2318,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1622550716",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1624546500",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -3201,7 +3205,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.0-beta17",
-                    "datestamp": "1622635843",
+                    "datestamp": "1623222447",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4535,17 +4539,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "1.1.2",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "1.1.2"
+                "reference": "1.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-1.1.2.zip",
-                "reference": "1.1.2",
-                "shasum": "9427bfd2caa79475bdebae967d7d32ab347297c4"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-1.2.1.zip",
+                "reference": "1.2.1",
+                "shasum": "8b7ffc078fff765cf2cb9c7570ac0eac2a4d01da"
             },
             "require": {
                 "drupal/bootstrap": "3.20",
@@ -4554,8 +4558,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.1.2",
-                    "datestamp": "1622444357",
+                    "version": "1.2.1",
+                    "datestamp": "1625570717",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4578,6 +4582,10 @@
                 {
                     "name": "Open Social",
                     "homepage": "https://www.drupal.org/user/272162"
+                },
+                {
+                    "name": "Ressinel",
+                    "homepage": "https://www.drupal.org/user/3536075"
                 },
                 {
                     "name": "navneet0693",
@@ -4596,17 +4604,17 @@
         },
         {
             "name": "drupal/socialblue",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialblue.git",
-                "reference": "1.1.1"
+                "reference": "1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialblue-1.1.1.zip",
-                "reference": "1.1.1",
-                "shasum": "0d84a953be144b6fb98d73b544924bfc73cdd3b7"
+                "url": "https://ftp.drupal.org/files/projects/socialblue-1.2.0.zip",
+                "reference": "1.2.0",
+                "shasum": "e512e5fb97600c3d4bf9eae9dcbe988b65e1c695"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -4615,8 +4623,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.1.1",
-                    "datestamp": "1618298362",
+                    "version": "1.2.0",
+                    "datestamp": "1625567238",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4639,6 +4647,10 @@
                 {
                     "name": "Open Social",
                     "homepage": "https://www.drupal.org/user/272162"
+                },
+                {
+                    "name": "Ressinel",
+                    "homepage": "https://www.drupal.org/user/3536075"
                 },
                 {
                     "name": "navneet0693",
@@ -5429,16 +5441,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.2.0",
+            "version": "10.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "55e5b28c2750bd9d4a5da1b18c4c4836fed67a65"
+                "reference": "5fa762d7cf314ef1c71a7d3c6e679c50ac176493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/55e5b28c2750bd9d4a5da1b18c4c4836fed67a65",
-                "reference": "55e5b28c2750bd9d4a5da1b18c4c4836fed67a65",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/5fa762d7cf314ef1c71a7d3c6e679c50ac176493",
+                "reference": "5fa762d7cf314ef1c71a7d3c6e679c50ac176493",
                 "shasum": ""
             },
             "require": {
@@ -5467,7 +5479,7 @@
                 "drupal/field_group": "3.1",
                 "drupal/flag": "4.0-alpha3",
                 "drupal/gin": "3.0.0-alpha34",
-                "drupal/gin_toolbar": "^1.0@beta",
+                "drupal/gin_toolbar": "1.0-beta17",
                 "drupal/graphql": "^4.1",
                 "drupal/group": "1.0-rc5",
                 "drupal/image_effects": "3.1",
@@ -5517,6 +5529,7 @@
                 "npm-asset/tablesaw": "~3.1.0",
                 "npm-asset/timepicker": "~1.11.14",
                 "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
+                "spatie/color": "^1.2",
                 "swiftmailer/swiftmailer": "6.2.4",
                 "webonyx/graphql-php": ">=14.5.0",
                 "zaporylie/composer-drupal-optimizations": "^1.0"
@@ -5633,9 +5646,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.2.0"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.2.1"
             },
-            "time": "2021-06-22T09:33:10+00:00"
+            "time": "2021-07-06T16:34:59+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5964,16 +5977,16 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5"
+                "reference": "2d6dce99668b413610e9544183fa10392437f542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/5e04bc5ae5990b17159d79d331055e2c645e5cc5",
-                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/2d6dce99668b413610e9544183fa10392437f542",
+                "reference": "2d6dce99668b413610e9544183fa10392437f542",
                 "shasum": ""
             },
             "require": {
@@ -5984,7 +5997,7 @@
                 "zendframework/zend-escaper": "^2.6.1"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "phpunit/phpunit": "^9.3",
                 "psalm/plugin-phpunit": "^0.12.2",
                 "vimeo/psalm": "^3.16"
@@ -6023,7 +6036,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-11-17T21:26:43+00:00"
+            "time": "2021-06-26T14:26:08+00:00"
         },
         {
             "name": "laminas/laminas-feed",
@@ -6107,16 +6120,16 @@
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "d81c7ffe602ed0e6ecb18691019111c0f4bf1efe"
+                "reference": "e89c2268c9cad25099f562f7f015c28c5dd383c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/d81c7ffe602ed0e6ecb18691019111c0f4bf1efe",
-                "reference": "d81c7ffe602ed0e6ecb18691019111c0f4bf1efe",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/e89c2268c9cad25099f562f7f015c28c5dd383c9",
+                "reference": "e89c2268c9cad25099f562f7f015c28c5dd383c9",
                 "shasum": ""
             },
             "require": {
@@ -6127,9 +6140,11 @@
                 "zendframework/zend-stdlib": "^3.2.1"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "phpbench/phpbench": "^0.17.1",
-                "phpunit/phpunit": "~9.3.7"
+                "phpunit/phpunit": "~9.3.7",
+                "psalm/plugin-phpunit": "^0.16.0",
+                "vimeo/psalm": "^4.7"
             },
             "type": "library",
             "autoload": {
@@ -6161,20 +6176,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-11-19T20:18:59+00:00"
+            "time": "2021-06-28T21:37:31+00:00"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32"
+                "reference": "13af2502d9bb6f7d33be2de4b51fb68c6cdb476e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/6cccbddfcfc742eb02158d6137ca5687d92cee32",
-                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/13af2502d9bb6f7d33be2de4b51fb68c6cdb476e",
+                "reference": "13af2502d9bb6f7d33be2de4b51fb68c6cdb476e",
                 "shasum": ""
             },
             "require": {
@@ -6223,7 +6238,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-02-25T21:54:58+00:00"
+            "time": "2021-06-24T12:49:22+00:00"
         },
         {
             "name": "league/csv",
@@ -6371,16 +6386,16 @@
         },
         {
             "name": "masterminds/html5",
-            "version": "2.7.4",
+            "version": "2.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Masterminds/html5-php.git",
-                "reference": "9227822783c75406cfe400984b2f095cdf03d417"
+                "reference": "f640ac1bdddff06ea333a920c95bbad8872429ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/9227822783c75406cfe400984b2f095cdf03d417",
-                "reference": "9227822783c75406cfe400984b2f095cdf03d417",
+                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/f640ac1bdddff06ea333a920c95bbad8872429ab",
+                "reference": "f640ac1bdddff06ea333a920c95bbad8872429ab",
                 "shasum": ""
             },
             "require": {
@@ -6390,7 +6405,7 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35"
+                "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7"
             },
             "type": "library",
             "extra": {
@@ -6434,9 +6449,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Masterminds/html5-php/issues",
-                "source": "https://github.com/Masterminds/html5-php/tree/2.7.4"
+                "source": "https://github.com/Masterminds/html5-php/tree/2.7.5"
             },
-            "time": "2020-10-01T13:52:52+00:00"
+            "time": "2021-07-01T14:25:37+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7484,6 +7499,64 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "spatie/color",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/color.git",
+                "reference": "a82a3080bd6ddc4914a6960d0a590c1c8b601e81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/color/zipball/a82a3080bd6ddc4914a6960d0a590c1c8b601e81",
+                "reference": "a82a3080bd6ddc4914a6960d0a590c1c8b601e81",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5||^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Color\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A little library to handle color conversions",
+            "homepage": "https://github.com/spatie/color",
+            "keywords": [
+                "color",
+                "conversion",
+                "rgb",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/color/issues",
+                "source": "https://github.com/spatie/color/tree/1.2.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-18T09:37:02+00:00"
         },
         {
             "name": "stack/builder",
@@ -9486,16 +9559,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.25",
+            "version": "v4.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "31ea689a8e7d2410016b0d25fc15a1ba05a6e2e0"
+                "reference": "a586efdf2aa832d05b9249e9115d24f6a2691160"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/31ea689a8e7d2410016b0d25fc15a1ba05a6e2e0",
-                "reference": "31ea689a8e7d2410016b0d25fc15a1ba05a6e2e0",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a586efdf2aa832d05b9249e9115d24f6a2691160",
+                "reference": "a586efdf2aa832d05b9249e9115d24f6a2691160",
                 "shasum": ""
             },
             "require": {
@@ -9555,7 +9628,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v4.4.25"
+                "source": "https://github.com/symfony/var-dumper/tree/v4.4.26"
             },
             "funding": [
                 {
@@ -9571,7 +9644,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T09:48:32+00:00"
+            "time": "2021-06-17T06:35:48+00:00"
         },
         {
             "name": "symfony/yaml",
