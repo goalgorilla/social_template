@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9713a5b5ebf1ca2439ef30c7fa632056",
+    "content-hash": "f72ae3890f3e61367151391d14e83697",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -652,26 +652,26 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.6.7",
+            "version": "1.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a"
+                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/55f8b799269a1a472457bd1a41b4f379d4cfba4a",
-                "reference": "55f8b799269a1a472457bd1a41b4f379d4cfba4a",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/1958a744696c6bb3bb0d28db2611dc11610e78af",
+                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpstan/phpstan-shim": "^0.9.2",
-                "phpunit/phpunit": "^7.0",
-                "vimeo/psalm": "^3.8.1"
+                "doctrine/coding-standard": "^9.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.1.5",
+                "vimeo/psalm": "^4.2.1"
             },
             "type": "library",
             "autoload": {
@@ -715,9 +715,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/collections/issues",
-                "source": "https://github.com/doctrine/collections/tree/1.6.7"
+                "source": "https://github.com/doctrine/collections/tree/1.6.8"
             },
-            "time": "2020-07-27T17:53:49+00:00"
+            "time": "2021-08-10T18:51:53+00:00"
         },
         {
             "name": "doctrine/common",
@@ -1813,16 +1813,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.17",
+            "version": "8.9.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "a1416f2cc6701acc0cc6725bfeac3715e633fd9c"
+                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/a1416f2cc6701acc0cc6725bfeac3715e633fd9c",
-                "reference": "a1416f2cc6701acc0cc6725bfeac3715e633fd9c",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e536176c45d9d75ec57f7a12c0e3c0aead856841",
+                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841",
                 "shasum": ""
             },
             "require": {
@@ -2041,13 +2041,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/8.9.17"
+                "source": "https://github.com/drupal/core/tree/8.9.18"
             },
-            "time": "2021-07-20T21:43:12+00:00"
+            "time": "2021-08-12T17:48:42+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.1.11",
+            "version": "9.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -4539,17 +4539,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "1.2.2"
+                "reference": "1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-1.2.2.zip",
-                "reference": "1.2.2",
-                "shasum": "d76bac372d51c208690034c124c23a58c544d131"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-1.3.0.zip",
+                "reference": "1.3.0",
+                "shasum": "535707a65a0c063a66134f09e079839f6423cc4f"
             },
             "require": {
                 "drupal/bootstrap": "3.20",
@@ -4558,8 +4558,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.2.2",
-                    "datestamp": "1626085170",
+                    "version": "1.3.0",
+                    "datestamp": "1629125025",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4604,17 +4604,17 @@
         },
         {
             "name": "drupal/socialblue",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialblue.git",
-                "reference": "1.2.1"
+                "reference": "1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialblue-1.2.1.zip",
-                "reference": "1.2.1",
-                "shasum": "d0f90bb66424d4310031b517317e98b3ba88bed5"
+                "url": "https://ftp.drupal.org/files/projects/socialblue-1.3.0.zip",
+                "reference": "1.3.0",
+                "shasum": "1688a32729c45b73efb69a7c583b04735a09bbd6"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -4623,8 +4623,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.2.1",
-                    "datestamp": "1626085189",
+                    "version": "1.3.0",
+                    "datestamp": "1629127198",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5441,16 +5441,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.2.2",
+            "version": "10.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "2a22b558545d1649727aebd88682bb4b15978364"
+                "reference": "f8484dca391c686ef5b0ecbaf003e5bed1f6a5b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/2a22b558545d1649727aebd88682bb4b15978364",
-                "reference": "2a22b558545d1649727aebd88682bb4b15978364",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/f8484dca391c686ef5b0ecbaf003e5bed1f6a5b7",
+                "reference": "f8484dca391c686ef5b0ecbaf003e5bed1f6a5b7",
                 "shasum": ""
             },
             "require": {
@@ -5646,9 +5646,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.2.2"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.2.3"
             },
-            "time": "2021-08-10T09:51:34+00:00"
+            "time": "2021-08-24T06:56:19+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7113,16 +7113,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.10",
+            "version": "v1.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "625a3c429d9b2c1546438679074cac1b089116a7"
+                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/625a3c429d9b2c1546438679074cac1b089116a7",
-                "reference": "625a3c429d9b2c1546438679074cac1b089116a7",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/68d0d32ada737153b7e93b8d3c710ebe70ac867d",
+                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d",
                 "shasum": ""
             },
             "require": {
@@ -7157,7 +7157,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2019-11-19T19:00:24+00:00"
+            "time": "2021-08-10T22:31:03+00:00"
         },
         {
             "name": "pear/pear_exception",

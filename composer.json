@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~10.2.2",
+        "goalgorilla/open_social": "~10.2.3",
         "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
