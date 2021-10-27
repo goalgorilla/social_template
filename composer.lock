@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56169f4b476d4ab628e5026b75407168",
+    "content-hash": "19f7874af6428d5bd0307e01e61f0695",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -127,16 +127,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.11",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "0b072d51c5a9c6f3412f7ea3ab043d6603cb2582"
+                "reference": "679333688725c7dd043ff35c547100ccf512f051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0b072d51c5a9c6f3412f7ea3ab043d6603cb2582",
-                "reference": "0b072d51c5a9c6f3412f7ea3ab043d6603cb2582",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/679333688725c7dd043ff35c547100ccf512f051",
+                "reference": "679333688725c7dd043ff35c547100ccf512f051",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.2.11"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.0"
             },
             "funding": [
                 {
@@ -199,7 +199,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-25T20:32:43+00:00"
+            "time": "2021-10-27T07:42:23+00:00"
         },
         {
             "name": "composer/installers",
@@ -1708,26 +1708,26 @@
         },
         {
             "name": "drupal/bootstrap",
-            "version": "3.20.0",
+            "version": "3.23.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap.git",
-                "reference": "8.x-3.20"
+                "reference": "8.x-3.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.20.zip",
-                "reference": "8.x-3.20",
-                "shasum": "dc8ecfca0b8e8e3598ba611e056f850f2ab497cb"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.23.zip",
+                "reference": "8.x-3.23",
+                "shasum": "9849be667cc678a91ad29f77c2baea2cf16878bc"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.20",
-                    "datestamp": "1574417581",
+                    "version": "8.x-3.23",
+                    "datestamp": "1592175762",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1736,7 +1736,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1758,7 +1758,7 @@
             "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
             "homepage": "https://www.drupal.org/project/bootstrap",
             "support": {
-                "source": "http://cgit.drupalcode.org/bootstrap",
+                "source": "https://git.drupalcode.org/project/bootstrap",
                 "docs": "https://drupal-bootstrap.org",
                 "issues": "https://www.drupal.org/project/issues/bootstrap",
                 "irc": "irc://irc.freenode.org/drupal-bootstrap"
@@ -2324,7 +2324,7 @@
                     "datestamp": "1627306399",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2350,12 +2350,12 @@
                     "homepage": "https://www.drupal.org/user/3071411"
                 },
                 {
-                    "name": "jaapjan",
-                    "homepage": "https://www.drupal.org/user/555428"
+                    "name": "navneet0693",
+                    "homepage": "https://www.drupal.org/user/3200545"
                 },
                 {
-                    "name": "royharink",
-                    "homepage": "https://www.drupal.org/user/2559552"
+                    "name": "tbsiqueira",
+                    "homepage": "https://www.drupal.org/user/2822445"
                 }
             ],
             "description": "Create data policies and track user agreements as well as informing users.",
@@ -4561,27 +4561,27 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "1.3.2",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "1.3.2"
+                "reference": "1.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-1.3.2.zip",
-                "reference": "1.3.2",
-                "shasum": "cd1ec020cba8d2c086b447fe2828f6a9dd1294d7"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-1.3.4.zip",
+                "reference": "1.3.4",
+                "shasum": "1480d5ac1742327cabe67ba6e74b872e648cf4f1"
             },
             "require": {
-                "drupal/bootstrap": "3.20",
+                "drupal/bootstrap": "3.23",
                 "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.3.2",
-                    "datestamp": "1630413730",
+                    "version": "1.3.4",
+                    "datestamp": "1634821600",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4614,8 +4614,16 @@
                     "homepage": "https://www.drupal.org/user/3200545"
                 },
                 {
+                    "name": "robertragas",
+                    "homepage": "https://www.drupal.org/user/2723261"
+                },
+                {
                     "name": "ronaldtebrake",
                     "homepage": "https://www.drupal.org/user/2314038"
+                },
+                {
+                    "name": "tbsiqueira",
+                    "homepage": "https://www.drupal.org/user/2822445"
                 }
             ],
             "description": "Base theme for Open social installations.",
@@ -4681,6 +4689,10 @@
                 {
                     "name": "ronaldtebrake",
                     "homepage": "https://www.drupal.org/user/2314038"
+                },
+                {
+                    "name": "tbsiqueira",
+                    "homepage": "https://www.drupal.org/user/2822445"
                 }
             ],
             "description": "Demo theme for Open social installations.",
@@ -5471,16 +5483,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.3.0",
+            "version": "10.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "3629ec19056fe990dde24452bfb8cd01181e0c88"
+                "reference": "33052567e53873afff0a49f1d1667fec4996b3c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/3629ec19056fe990dde24452bfb8cd01181e0c88",
-                "reference": "3629ec19056fe990dde24452bfb8cd01181e0c88",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/33052567e53873afff0a49f1d1667fec4996b3c5",
+                "reference": "33052567e53873afff0a49f1d1667fec4996b3c5",
                 "shasum": ""
             },
             "require": {
@@ -5578,7 +5590,7 @@
                 "enable-patching": true,
                 "patches": {
                     "instaclick/php-webdriver": {
-                        "Curl_exec errors on behat": "https://www.drupal.org/files/issues/2021-07-30/3226058-social-instaclick-webdriver.patch"
+                        "Curl_exec errors on behat (1.4.10)": "https://www.drupal.org/files/issues/2021-10-17/social-instaclick-webdriver-3226058-8.patch"
                     },
                     "embed/embed": {
                         "Issue #3110341: Embedded Vimeo videos are sometimes blocked when hosted on cloud hosting": "https://www.drupal.org/files/issues/2020-01-31/3110341-vendor-fix-vimeo-adapter.patch"
@@ -5681,9 +5693,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.3.0"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.3.1"
             },
-            "time": "2021-10-11T07:56:49+00:00"
+            "time": "2021-10-27T08:28:37+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5758,16 +5770,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0"
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
-                "reference": "136a635e2b4a49b9d79e9c8fee267ffb257fdba0",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": ""
             },
             "require": {
@@ -5822,7 +5834,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.5.0"
+                "source": "https://github.com/guzzle/promises/tree/1.5.1"
             },
             "funding": [
                 {
@@ -5838,7 +5850,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-07T13:05:22+00:00"
+            "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
