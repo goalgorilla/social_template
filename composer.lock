@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00578029b5a36935e4b7be1062f69174",
+    "content-hash": "7790b52a00fd58443afa4621b76daa13",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1005,32 +1005,28 @@
         },
         {
             "name": "doctrine/lexer",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
-                "reference": "e864bbf5904cb8f5bb334f99209b48018522f042"
+                "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/e864bbf5904cb8f5bb334f99209b48018522f042",
-                "reference": "e864bbf5904cb8f5bb334f99209b48018522f042",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c",
+                "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpstan/phpstan": "^0.11.8",
-                "phpunit/phpunit": "^8.2"
+                "doctrine/coding-standard": "^9.0",
+                "phpstan/phpstan": "1.3",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "vimeo/psalm": "^4.11"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -1065,7 +1061,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/lexer/issues",
-                "source": "https://github.com/doctrine/lexer/tree/1.2.1"
+                "source": "https://github.com/doctrine/lexer/tree/1.2.2"
             },
             "funding": [
                 {
@@ -1081,7 +1077,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-25T17:44:05+00:00"
+            "time": "2022-01-12T08:27:12+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -5492,16 +5488,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.3.4",
+            "version": "10.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "b517088cd1fb0056212b2cc9d09f310eed53f347"
+                "reference": "01a7cecdba1bd10bd87418bee0a5488e97a03877"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/b517088cd1fb0056212b2cc9d09f310eed53f347",
-                "reference": "b517088cd1fb0056212b2cc9d09f310eed53f347",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/01a7cecdba1bd10bd87418bee0a5488e97a03877",
+                "reference": "01a7cecdba1bd10bd87418bee0a5488e97a03877",
                 "shasum": ""
             },
             "require": {
@@ -5708,9 +5704,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.3.4"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.3.5"
             },
-            "time": "2022-01-11T10:42:44+00:00"
+            "time": "2022-01-18T10:26:03+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7633,16 +7629,16 @@
         },
         {
             "name": "spatie/color",
-            "version": "v1.3.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/color.git",
-                "reference": "fafbf8900541230e10abb2b165990e4758c28024"
+                "reference": "c0615ecb8cb3b6d769eb1d479d999aaaebb65e55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/color/zipball/fafbf8900541230e10abb2b165990e4758c28024",
-                "reference": "fafbf8900541230e10abb2b165990e4758c28024",
+                "url": "https://api.github.com/repos/spatie/color/zipball/c0615ecb8cb3b6d769eb1d479d999aaaebb65e55",
+                "reference": "c0615ecb8cb3b6d769eb1d479d999aaaebb65e55",
                 "shasum": ""
             },
             "require": {
@@ -7679,7 +7675,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/color/issues",
-                "source": "https://github.com/spatie/color/tree/1.3.0"
+                "source": "https://github.com/spatie/color/tree/1.5.0"
             },
             "funding": [
                 {
@@ -7687,7 +7683,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-06T08:57:14+00:00"
+            "time": "2022-01-11T18:45:48+00:00"
         },
         {
             "name": "stack/builder",
