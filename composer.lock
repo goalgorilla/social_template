@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7790b52a00fd58443afa4621b76daa13",
+    "content-hash": "400a70d1aec418f0c88a46988c55579b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3159,10 +3159,6 @@
                     "name": "Sascha Eggenberger (saschaeggi)",
                     "homepage": "https://www.drupal.org/u/saschaeggi",
                     "role": "Maintainer"
-                },
-                {
-                    "name": "saschaeggi",
-                    "homepage": "https://www.drupal.org/user/1999056"
                 }
             ],
             "description": "For a better Admin and Content Editor Experience.",
@@ -5488,16 +5484,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.3.5",
+            "version": "10.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "01a7cecdba1bd10bd87418bee0a5488e97a03877"
+                "reference": "97f2c2b19df363148d04a2eddcb4e1509aeedd42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/01a7cecdba1bd10bd87418bee0a5488e97a03877",
-                "reference": "01a7cecdba1bd10bd87418bee0a5488e97a03877",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/97f2c2b19df363148d04a2eddcb4e1509aeedd42",
+                "reference": "97f2c2b19df363148d04a2eddcb4e1509aeedd42",
                 "shasum": ""
             },
             "require": {
@@ -5617,7 +5613,8 @@
                         "Empty language (langcode) field wrapper inserted into contact form": "https://www.drupal.org/files/issues/2020-03-06/empty-langcode-field-wrapper-2842405-17.patch",
                         "Broken title in modal dialog when title is a render array": "https://www.drupal.org/files/issues/2019-10-21/2663316-76.drupal.Broken-title-in-modal-dialog-when-title-is-a-render-array.patch",
                         "PHPDocs with wrong parameters": "https://www.drupal.org/files/issues/2019-09-03/queryinterface-range-updated-phpdocs.patch",
-                        "Post update hook naming convention patch": "https://git.drupalcode.org/project/drupal/-/merge_requests/1215.patch"
+                        "Post update hook naming convention patch": "https://git.drupalcode.org/project/drupal/-/merge_requests/1215.patch",
+                        "Backport Drupal 9.x SA-CORE-2022-001 to Open Social 10.x versions": "https://www.drupal.org/files/issues/2022-01-20/3259572-Backport-Drupal-9.x-SA-CORE-2022-001-1.patch"
                     },
                     "drupal/flag": {
                         "Add relationship to flagged entities when Flagging is base table": "https://www.drupal.org/files/issues/2723703_31.patch"
@@ -5704,9 +5701,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.3.5"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.3.6"
             },
-            "time": "2022-01-18T10:26:03+00:00"
+            "time": "2022-01-21T10:22:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -10042,28 +10039,28 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.3",
+            "version": "v14.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "a7192e7a2b0487dc5e185feb4f4df1fc24d35d86"
+                "reference": "d8d6307399df7246f09a1e9cc05e1574214ca67c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/a7192e7a2b0487dc5e185feb4f4df1fc24d35d86",
-                "reference": "a7192e7a2b0487dc5e185feb4f4df1fc24d35d86",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d8d6307399df7246f09a1e9cc05e1574214ca67c",
+                "reference": "d8d6307399df7246f09a1e9cc05e1574214ca67c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8"
             },
             "require-dev": {
                 "amphp/amp": "^2.3",
                 "doctrine/coding-standard": "^6.0",
                 "nyholm/psr7": "^1.2",
-                "phpbench/phpbench": "^0.16.10",
+                "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "0.12.82",
                 "phpstan/phpstan-phpunit": "0.12.18",
@@ -10096,7 +10093,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.3"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.4"
             },
             "funding": [
                 {
@@ -10104,7 +10101,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-11-19T09:42:02+00:00"
+            "time": "2022-01-20T15:10:45+00:00"
         },
         {
             "name": "zaporylie/composer-drupal-optimizations",
