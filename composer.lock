@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "400a70d1aec418f0c88a46988c55579b",
+    "content-hash": "ea65f890895802cfbaceec006096dd0a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5484,16 +5484,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "10.3.6",
+            "version": "10.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "97f2c2b19df363148d04a2eddcb4e1509aeedd42"
+                "reference": "a5c157ce79add08dbe14e4c1080e4bc197bca96f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/97f2c2b19df363148d04a2eddcb4e1509aeedd42",
-                "reference": "97f2c2b19df363148d04a2eddcb4e1509aeedd42",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/a5c157ce79add08dbe14e4c1080e4bc197bca96f",
+                "reference": "a5c157ce79add08dbe14e4c1080e4bc197bca96f",
                 "shasum": ""
             },
             "require": {
@@ -5701,9 +5701,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/10.3.6"
+                "source": "https://github.com/goalgorilla/open_social/tree/10.3.7"
             },
-            "time": "2022-01-21T10:22:15+00:00"
+            "time": "2022-01-25T09:46:43+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -6235,16 +6235,16 @@
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "cba75fad2053bb5dc8d3e7f5e62b61d75eecfaf1"
+                "reference": "bcd869e2fe88d567800057c1434f2380354fe325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/cba75fad2053bb5dc8d3e7f5e62b61d75eecfaf1",
-                "reference": "cba75fad2053bb5dc8d3e7f5e62b61d75eecfaf1",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/bcd869e2fe88d567800057c1434f2380354fe325",
+                "reference": "bcd869e2fe88d567800057c1434f2380354fe325",
                 "shasum": ""
             },
             "require": {
@@ -6290,7 +6290,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-01-10T11:18:55+00:00"
+            "time": "2022-01-21T15:50:46+00:00"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
@@ -10039,16 +10039,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.4",
+            "version": "v14.11.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "d8d6307399df7246f09a1e9cc05e1574214ca67c"
+                "reference": "ffa431c0821821839370a68dab3c2597c06bf7f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d8d6307399df7246f09a1e9cc05e1574214ca67c",
-                "reference": "d8d6307399df7246f09a1e9cc05e1574214ca67c",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ffa431c0821821839370a68dab3c2597c06bf7f0",
+                "reference": "ffa431c0821821839370a68dab3c2597c06bf7f0",
                 "shasum": ""
             },
             "require": {
@@ -10093,7 +10093,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.4"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.5"
             },
             "funding": [
                 {
@@ -10101,7 +10101,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-01-20T15:10:45+00:00"
+            "time": "2022-01-24T11:13:31+00:00"
         },
         {
             "name": "zaporylie/composer-drupal-optimizations",
@@ -10161,5 +10161,5 @@
         "php": "^7.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

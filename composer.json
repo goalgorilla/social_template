@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~10.3.6",
+        "goalgorilla/open_social": "~10.3.7",
         "php": "^7.2",
         "monolog/monolog": "^1.17"
     },
@@ -58,6 +58,15 @@
         "enable-patching": true,
         "patchLevel": {
             "drupal/core": "-p2"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "oomphinc/composer-installers-extender": true,
+            "zaporylie/composer-drupal-optimizations": true
         }
     }
 }
