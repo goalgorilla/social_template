@@ -6,9 +6,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~10.3.7",
-        "php": "^7.2",
-        "monolog/monolog": "^1.17"
+        "goalgorilla/open_social": "~11.0.0",
+        "php": "^7.4",
+        "monolog/monolog": "^2.3.5"
     },
     "repositories": [
         {
