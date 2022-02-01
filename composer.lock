@@ -497,16 +497,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c"
+                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/9888dcc74993c030b75f3dd548bb5e20cdbd740c",
-                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e9969cfc0796e6dea9b4e52f77f18e1065212871",
+                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871",
                 "shasum": ""
             },
             "require": {
@@ -539,9 +539,9 @@
             "description": "Provides a way to patch Composer packages.",
             "support": {
                 "issues": "https://github.com/cweagans/composer-patches/issues",
-                "source": "https://github.com/cweagans/composer-patches/tree/1.7.1"
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.2"
             },
-            "time": "2021-06-08T15:12:46+00:00"
+            "time": "2022-01-25T19:21:20+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4434,17 +4434,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.1.1"
+                "reference": "2.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.1.zip",
-                "reference": "2.1.1",
-                "shasum": "3039fc8978eb6b5c38c813a4071c1c3f9ddcb31f"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.2.zip",
+                "reference": "2.1.2",
+                "shasum": "5f59c0e7ff73cee9c0501a3e57b111be337026ea"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4453,11 +4453,16 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.1",
-                    "datestamp": "1641386671",
+                    "version": "2.1.2",
+                    "datestamp": "1643373678",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "patches": {
+                    "drupal/bootstrap": {
+                        "'Show row weight' text is miissing": "https://www.drupal.org/files/issues/2021-08-24/bootstrap-toggle_undefined-3209773-8.patch"
                     }
                 }
             },
@@ -5355,16 +5360,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.0.0-rc6",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "b52067834c58e5f53b892c67a6df1ca94839f1b7"
+                "reference": "360fa97686050e724624f69c02a48092d4297139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/b52067834c58e5f53b892c67a6df1ca94839f1b7",
-                "reference": "b52067834c58e5f53b892c67a6df1ca94839f1b7",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/360fa97686050e724624f69c02a48092d4297139",
+                "reference": "360fa97686050e724624f69c02a48092d4297139",
                 "shasum": ""
             },
             "require": {
@@ -5442,7 +5447,7 @@
                 "npm-asset/slick-carousel": "~1.8.1",
                 "npm-asset/tablesaw": "~3.1.0",
                 "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
-                "php": "^7.4 || ^8",
+                "php": "^7.4",
                 "spatie/color": "^1.2",
                 "swiftmailer/swiftmailer": "6.2.4",
                 "webonyx/graphql-php": ">=14.5.0"
@@ -5596,9 +5601,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.0.0-rc6"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.0.0"
             },
-            "time": "2022-01-25T09:55:42+00:00"
+            "time": "2022-02-01T09:26:56+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7883,16 +7888,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.4.2",
+            "version": "v5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "cfcbee910e159df402603502fe387e8b677c22fd"
+                "reference": "b0a190285cd95cb019237851205b8140ef6e368e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/cfcbee910e159df402603502fe387e8b677c22fd",
-                "reference": "cfcbee910e159df402603502fe387e8b677c22fd",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/b0a190285cd95cb019237851205b8140ef6e368e",
+                "reference": "b0a190285cd95cb019237851205b8140ef6e368e",
                 "shasum": ""
             },
             "require": {
@@ -7929,7 +7934,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.4.2"
+                "source": "https://github.com/symfony/css-selector/tree/v5.4.3"
             },
             "funding": [
                 {
@@ -7945,7 +7950,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-16T21:58:21+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/debug",
@@ -8401,16 +8406,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.27",
+            "version": "v4.4.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "517fb795794faf29086a77d99eb8f35e457837a7"
+                "reference": "c59f37705c3e513ae55b2735f128f4ce363c82ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/517fb795794faf29086a77d99eb8f35e457837a7",
-                "reference": "517fb795794faf29086a77d99eb8f35e457837a7",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c59f37705c3e513ae55b2735f128f4ce363c82ec",
+                "reference": "c59f37705c3e513ae55b2735f128f4ce363c82ec",
                 "shasum": ""
             },
             "require": {
@@ -8444,7 +8449,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v4.4.27"
+                "source": "https://github.com/symfony/filesystem/tree/v4.4.37"
             },
             "funding": [
                 {
@@ -8460,7 +8465,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-21T12:19:41+00:00"
+            "time": "2022-01-02T09:41:36+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
