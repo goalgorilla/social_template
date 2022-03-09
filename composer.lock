@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9327d0c75ede91b8ec54dc8284d0cf6",
+    "content-hash": "9c15404d732e111e409603e8f041cae5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4426,17 +4426,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.1.2",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.1.2"
+                "reference": "2.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.2.zip",
-                "reference": "2.1.2",
-                "shasum": "5f59c0e7ff73cee9c0501a3e57b111be337026ea"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.4.zip",
+                "reference": "2.1.4",
+                "shasum": "53f57958a6835b858fa4c1c2142ffd32db92bdac"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4445,8 +4445,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.2",
-                    "datestamp": "1643373678",
+                    "version": "2.1.4",
+                    "datestamp": "1646828957",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4504,27 +4504,27 @@
         },
         {
             "name": "drupal/socialblue",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialblue.git",
-                "reference": "2.1.1"
+                "reference": "2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialblue-2.1.1.zip",
-                "reference": "2.1.1",
-                "shasum": "c4647f0637a088b3d6d1c146128309b05d8a2641"
+                "url": "https://ftp.drupal.org/files/projects/socialblue-2.1.3.zip",
+                "reference": "2.1.3",
+                "shasum": "aec16f6f399a7101b7a2d3ce882d69ffecf65509"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
-                "drupal/socialbase": "~2.1.0"
+                "drupal/socialbase": "~2.1.4"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.1",
-                    "datestamp": "1641386632",
+                    "version": "2.1.3",
+                    "datestamp": "1646829226",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5352,16 +5352,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.0.4",
+            "version": "11.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "3102a2ce013b1bf975bb79fdd156daa6598510bb"
+                "reference": "aa77687414f4ec196066ea406c01c59739df304f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/3102a2ce013b1bf975bb79fdd156daa6598510bb",
-                "reference": "3102a2ce013b1bf975bb79fdd156daa6598510bb",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/aa77687414f4ec196066ea406c01c59739df304f",
+                "reference": "aa77687414f4ec196066ea406c01c59739df304f",
                 "shasum": ""
             },
             "require": {
@@ -5410,7 +5410,7 @@
                 "drupal/search_api": "1.21",
                 "drupal/select2": "1.13.0",
                 "drupal/shariff": "1.7",
-                "drupal/socialblue": "2.1.1",
+                "drupal/socialblue": "2.1.3",
                 "drupal/swiftmailer": "2.0.0",
                 "drupal/token": "1.9",
                 "drupal/ultimate_cron": "2.0-alpha5",
@@ -5536,7 +5536,7 @@
                     },
                     "drupal/group": {
                         "Add computed field for Group reference": "https://www.drupal.org/files/issues/2021-07-30/group-2718195-58-groups-computed-field.patch",
-                        "Ability to use group tokens in node context": "https://www.drupal.org/files/issues/2018-12-19/group-2774827-41-gnode-tokens.patch",
+                        "Ability to use group tokens in node context": "https://www.drupal.org/files/issues/2021-03-11/group-gnode_tokens-2774827-75.patch",
                         "Group: Don't try to re-save deleted entities": "https://www.drupal.org/files/issues/2018-11-01/3010896-02.patch",
                         "Rely on toUrl defaults for Entity url link": "https://www.drupal.org/files/issues/2019-12-04/group-3098675-2.patch",
                         "Missing config schema for condition.plugin.group_type": "https://www.drupal.org/files/issues/2018-12-14/group-group_type_condition_plugin_config_schema-3020554-2.patch",
@@ -5591,9 +5591,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.0.4"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.0.5"
             },
-            "time": "2022-03-01T09:47:17+00:00"
+            "time": "2022-03-09T13:11:43+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -8397,16 +8397,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.37",
+            "version": "v4.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "c59f37705c3e513ae55b2735f128f4ce363c82ec"
+                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c59f37705c3e513ae55b2735f128f4ce363c82ec",
-                "reference": "c59f37705c3e513ae55b2735f128f4ce363c82ec",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/72a5b35fecaa670b13954e6eaf414acbe2a67b35",
+                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35",
                 "shasum": ""
             },
             "require": {
@@ -8440,7 +8440,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v4.4.37"
+                "source": "https://github.com/symfony/filesystem/tree/v4.4.39"
             },
             "funding": [
                 {
@@ -8456,7 +8456,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:41:36+00:00"
+            "time": "2022-02-25T10:38:15+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -9203,7 +9203,7 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.24.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
@@ -9259,7 +9259,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.24.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.25.0"
             },
             "funding": [
                 {
@@ -9279,7 +9279,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.24.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -9338,7 +9338,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.24.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.25.0"
             },
             "funding": [
                 {
