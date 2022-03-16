@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c15404d732e111e409603e8f041cae5",
+    "content-hash": "0dc52fd419b5d53f319f2450c17b117c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1402,16 +1402,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.13",
+            "version": "9.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "609d1b2840d265a4a599cdd473b767d3a7bf786e"
+                "reference": "403a03b5a461cf984afdf5af7039ca908bd2a2fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/609d1b2840d265a4a599cdd473b767d3a7bf786e",
-                "reference": "609d1b2840d265a4a599cdd473b767d3a7bf786e",
+                "url": "https://api.github.com/repos/drupal/core/zipball/403a03b5a461cf984afdf5af7039ca908bd2a2fa",
+                "reference": "403a03b5a461cf984afdf5af7039ca908bd2a2fa",
                 "shasum": ""
             },
             "require": {
@@ -1650,13 +1650,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.13"
+                "source": "https://github.com/drupal/core/tree/9.2.14"
             },
-            "time": "2022-02-15T20:26:35+00:00"
+            "time": "2022-03-11T19:33:29+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.13",
+            "version": "9.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1700,22 +1700,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.13"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.14"
             },
             "time": "2021-08-24T12:04:07+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.13",
+            "version": "9.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "01c09046942c89a86645ab9c7fbf80c68d0f5d7c"
+                "reference": "6fa2bd45857c31c1a78f72b7913fcd059a30a7b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/01c09046942c89a86645ab9c7fbf80c68d0f5d7c",
-                "reference": "01c09046942c89a86645ab9c7fbf80c68d0f5d7c",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/6fa2bd45857c31c1a78f72b7913fcd059a30a7b7",
+                "reference": "6fa2bd45857c31c1a78f72b7913fcd059a30a7b7",
                 "shasum": ""
             },
             "require": {
@@ -1724,7 +1724,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.13",
+                "drupal/core": "9.2.14",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -1787,9 +1787,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.13"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.14"
             },
-            "time": "2022-02-15T20:26:35+00:00"
+            "time": "2022-03-11T19:33:29+00:00"
         },
         {
             "name": "drupal/crop",
@@ -4426,17 +4426,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.1.4",
+            "version": "2.1.6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.1.4"
+                "reference": "2.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.4.zip",
-                "reference": "2.1.4",
-                "shasum": "53f57958a6835b858fa4c1c2142ffd32db92bdac"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.6.zip",
+                "reference": "2.1.6",
+                "shasum": "e63f3559a0bddafe88a7073155274790dab27b69"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4445,8 +4445,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.4",
-                    "datestamp": "1646828957",
+                    "version": "2.1.6",
+                    "datestamp": "1647337192",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5352,16 +5352,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.0.5",
+            "version": "11.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "aa77687414f4ec196066ea406c01c59739df304f"
+                "reference": "c74352eadfa4d9808fb1a7fab5611777e155b18e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/aa77687414f4ec196066ea406c01c59739df304f",
-                "reference": "aa77687414f4ec196066ea406c01c59739df304f",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/c74352eadfa4d9808fb1a7fab5611777e155b18e",
+                "reference": "c74352eadfa4d9808fb1a7fab5611777e155b18e",
                 "shasum": ""
             },
             "require": {
@@ -5556,9 +5556,6 @@
                     "drupal/r4032login": {
                         "3248175: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248175-2.patch"
                     },
-                    "drupal/socialbase": {
-                        "[Internal] Add extra check for the file.": "https://git.drupalcode.org/project/socialbase/-/merge_requests/81.diff"
-                    },
                     "drupal/update_helper": {
                         "3248189: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248189-2.patch"
                     },
@@ -5591,9 +5588,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.0.5"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.0.6"
             },
-            "time": "2022-03-09T13:11:43+00:00"
+            "time": "2022-03-16T08:57:49+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -6417,16 +6414,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.3.5",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd4380d6fc37626e2f799f29d91195040137eba9"
+                "reference": "d7fd7450628561ba697b7097d86db72662f54aef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd4380d6fc37626e2f799f29d91195040137eba9",
-                "reference": "fd4380d6fc37626e2f799f29d91195040137eba9",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d7fd7450628561ba697b7097d86db72662f54aef",
+                "reference": "d7fd7450628561ba697b7097d86db72662f54aef",
                 "shasum": ""
             },
             "require": {
@@ -6448,7 +6445,7 @@
                 "phpstan/phpstan": "^0.12.91",
                 "phpunit/phpunit": "^8.5",
                 "predis/predis": "^1.1",
-                "rollbar/rollbar": "^1.3",
+                "rollbar/rollbar": "^1.3 || ^2 || ^3",
                 "ruflin/elastica": ">=0.90@dev",
                 "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
@@ -6500,7 +6497,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.3.5"
+                "source": "https://github.com/Seldaek/monolog/tree/2.4.0"
             },
             "funding": [
                 {
@@ -6512,7 +6509,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-01T21:08:31+00:00"
+            "time": "2022-03-14T12:44:37+00:00"
         },
         {
             "name": "npm-asset/autosize",
