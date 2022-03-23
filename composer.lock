@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dc52fd419b5d53f319f2450c17b117c",
+    "content-hash": "df1ad4b261904a17c88e228cda00d488",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -273,16 +273,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v2.0.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8"
+                "reference": "75e5ef05436c90ac565a48176cc7465991908352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
-                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
+                "url": "https://api.github.com/repos/composer/installers/zipball/75e5ef05436c90ac565a48176cc7465991908352",
+                "reference": "75e5ef05436c90ac565a48176cc7465991908352",
                 "shasum": ""
             },
             "require": {
@@ -302,7 +302,8 @@
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-main": "2.x-dev"
-                }
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -396,7 +397,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.0.1"
+                "source": "https://github.com/composer/installers/tree/v2.1.0"
             },
             "funding": [
                 {
@@ -412,7 +413,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T08:21:20+00:00"
+            "time": "2022-03-18T12:27:54+00:00"
         },
         {
             "name": "composer/semver",
@@ -1402,16 +1403,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.14",
+            "version": "9.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "403a03b5a461cf984afdf5af7039ca908bd2a2fa"
+                "reference": "e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/403a03b5a461cf984afdf5af7039ca908bd2a2fa",
-                "reference": "403a03b5a461cf984afdf5af7039ca908bd2a2fa",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a",
+                "reference": "e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a",
                 "shasum": ""
             },
             "require": {
@@ -1650,13 +1651,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.14"
+                "source": "https://github.com/drupal/core/tree/9.2.16"
             },
-            "time": "2022-03-11T19:33:29+00:00"
+            "time": "2022-03-21T21:22:04+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.14",
+            "version": "9.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1700,22 +1701,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.14"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.16"
             },
             "time": "2021-08-24T12:04:07+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.14",
+            "version": "9.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "6fa2bd45857c31c1a78f72b7913fcd059a30a7b7"
+                "reference": "bb44c58dc0520852a0d031aebc175b5025300b40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/6fa2bd45857c31c1a78f72b7913fcd059a30a7b7",
-                "reference": "6fa2bd45857c31c1a78f72b7913fcd059a30a7b7",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/bb44c58dc0520852a0d031aebc175b5025300b40",
+                "reference": "bb44c58dc0520852a0d031aebc175b5025300b40",
                 "shasum": ""
             },
             "require": {
@@ -1724,11 +1725,11 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.14",
+                "drupal/core": "9.2.16",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
-                "guzzlehttp/psr7": "1.8.2",
+                "guzzlehttp/psr7": "1.8.5",
                 "laminas/laminas-diactoros": "2.6.0",
                 "laminas/laminas-escaper": "2.7.0",
                 "laminas/laminas-feed": "2.14.1",
@@ -1787,9 +1788,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.14"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.16"
             },
-            "time": "2022-03-11T19:33:29+00:00"
+            "time": "2022-03-21T21:22:04+00:00"
         },
         {
             "name": "drupal/crop",
@@ -5352,16 +5353,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.0.6",
+            "version": "11.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "c74352eadfa4d9808fb1a7fab5611777e155b18e"
+                "reference": "550547dfb74b1262abb3176927da5f14805dc2ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/c74352eadfa4d9808fb1a7fab5611777e155b18e",
-                "reference": "c74352eadfa4d9808fb1a7fab5611777e155b18e",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/550547dfb74b1262abb3176927da5f14805dc2ae",
+                "reference": "550547dfb74b1262abb3176927da5f14805dc2ae",
                 "shasum": ""
             },
             "require": {
@@ -5588,9 +5589,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.0.6"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.0.7"
             },
-            "time": "2022-03-16T08:57:49+00:00"
+            "time": "2022-03-22T12:49:31+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5720,16 +5721,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.2",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
-                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
@@ -5767,12 +5768,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -5789,9 +5811,23 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.2"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
             },
-            "time": "2021-04-26T09:17:50+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "html2text/html2text",
