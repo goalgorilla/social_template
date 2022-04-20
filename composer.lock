@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66a71d6f7997196556f5be97e632f9a2",
+    "content-hash": "3c661fd4ca85d285c032b430cbb902cb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -67,7 +67,7 @@
             "version": "5.3.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:aFarkas/lazysizes.git",
+                "url": "https://github.com/aFarkas/lazysizes.git",
                 "reference": "81cf774c6a7f4d8f7f3909e225a65d8acb10cb20"
             },
             "dist": {
@@ -274,16 +274,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352"
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/75e5ef05436c90ac565a48176cc7465991908352",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352",
+                "url": "https://api.github.com/repos/composer/installers/zipball/af93ba6e52236418f07a278033eba6959ee5b983",
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +398,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.1.0"
+                "source": "https://github.com/composer/installers/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -414,7 +414,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-18T12:27:54+00:00"
+            "time": "2022-04-13T09:13:00+00:00"
         },
         {
             "name": "composer/semver",
@@ -1405,16 +1405,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.16",
+            "version": "9.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a"
+                "reference": "74ae36fa4c9be407a2c19961b73ae749bb386070"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a",
-                "reference": "e4f0a0d4c3add3ad735935b3cf1fbd2ec8706a6a",
+                "url": "https://api.github.com/repos/drupal/core/zipball/74ae36fa4c9be407a2c19961b73ae749bb386070",
+                "reference": "74ae36fa4c9be407a2c19961b73ae749bb386070",
                 "shasum": ""
             },
             "require": {
@@ -1653,13 +1653,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.16"
+                "source": "https://github.com/drupal/core/tree/9.2.17"
             },
-            "time": "2022-03-21T21:22:04+00:00"
+            "time": "2022-04-14T00:40:35+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.16",
+            "version": "9.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1703,22 +1703,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.16"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.17"
             },
             "time": "2021-08-24T12:04:07+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.16",
+            "version": "9.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "bb44c58dc0520852a0d031aebc175b5025300b40"
+                "reference": "af0c82362d8df11c292205a5819245b14e489161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/bb44c58dc0520852a0d031aebc175b5025300b40",
-                "reference": "bb44c58dc0520852a0d031aebc175b5025300b40",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/af0c82362d8df11c292205a5819245b14e489161",
+                "reference": "af0c82362d8df11c292205a5819245b14e489161",
                 "shasum": ""
             },
             "require": {
@@ -1727,7 +1727,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.16",
+                "drupal/core": "9.2.17",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -1790,9 +1790,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.16"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.17"
             },
-            "time": "2022-03-21T21:22:04+00:00"
+            "time": "2022-04-14T00:40:35+00:00"
         },
         {
             "name": "drupal/crop",
@@ -5365,16 +5365,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.1.2",
+            "version": "11.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "7ed6a1f75527fab00421491d48d69114478a8019"
+                "reference": "d09520eeb87e286894912763242622bbac9ef805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/7ed6a1f75527fab00421491d48d69114478a8019",
-                "reference": "7ed6a1f75527fab00421491d48d69114478a8019",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/d09520eeb87e286894912763242622bbac9ef805",
+                "reference": "d09520eeb87e286894912763242622bbac9ef805",
                 "shasum": ""
             },
             "require": {
@@ -5600,9 +5600,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.1.2"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.1.3"
             },
-            "time": "2022-04-12T09:31:11+00:00"
+            "time": "2022-04-20T06:47:09+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -10513,16 +10513,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.5",
+            "version": "v14.11.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "ffa431c0821821839370a68dab3c2597c06bf7f0"
+                "reference": "6070542725b61fc7d0654a8a9855303e5e157434"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ffa431c0821821839370a68dab3c2597c06bf7f0",
-                "reference": "ffa431c0821821839370a68dab3c2597c06bf7f0",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/6070542725b61fc7d0654a8a9855303e5e157434",
+                "reference": "6070542725b61fc7d0654a8a9855303e5e157434",
                 "shasum": ""
             },
             "require": {
@@ -10567,7 +10567,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.5"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.6"
             },
             "funding": [
                 {
@@ -10575,7 +10575,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-01-24T11:13:31+00:00"
+            "time": "2022-04-13T16:25:32+00:00"
         }
     ],
     "packages-dev": [],
@@ -10588,5 +10588,5 @@
         "php": "^7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
