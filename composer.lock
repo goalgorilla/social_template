@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c5d3408ab26a1c0c5c4849405d0be61",
+    "content-hash": "2e044713de55fe9f9d040a9bd891fa56",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -67,7 +67,7 @@
             "version": "5.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aFarkas/lazysizes.git",
+                "url": "git@github.com:aFarkas/lazysizes.git",
                 "reference": "81cf774c6a7f4d8f7f3909e225a65d8acb10cb20"
             },
             "dist": {
@@ -4435,17 +4435,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.1.6"
+                "reference": "2.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.6.zip",
-                "reference": "2.1.6",
-                "shasum": "e63f3559a0bddafe88a7073155274790dab27b69"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.1.7.zip",
+                "reference": "2.1.7",
+                "shasum": "4e032f4d5d099dd0f15642efb31640ea26bd2eed"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4454,8 +4454,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.6",
-                    "datestamp": "1647337192",
+                    "version": "2.1.7",
+                    "datestamp": "1651132550",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4513,27 +4513,27 @@
         },
         {
             "name": "drupal/socialblue",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialblue.git",
-                "reference": "2.1.4"
+                "reference": "2.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialblue-2.1.4.zip",
-                "reference": "2.1.4",
-                "shasum": "6a92dcb838df362bbdd32b14e2596ef0ec845d52"
+                "url": "https://ftp.drupal.org/files/projects/socialblue-2.1.5.zip",
+                "reference": "2.1.5",
+                "shasum": "f7369e0cf7f988dad55eb3e9d01ddb63c7897938"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
-                "drupal/socialbase": "2.1.6"
+                "drupal/socialbase": "2.1.7"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.1.4",
-                    "datestamp": "1649318738",
+                    "version": "2.1.5",
+                    "datestamp": "1651133232",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5366,16 +5366,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.2.0",
+            "version": "11.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "2f2f62f978abf4abeb0a36caf7bc29160db6aabd"
+                "reference": "a2b5d7dbd52c7f036959d227fa15e0d980388b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/2f2f62f978abf4abeb0a36caf7bc29160db6aabd",
-                "reference": "2f2f62f978abf4abeb0a36caf7bc29160db6aabd",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/a2b5d7dbd52c7f036959d227fa15e0d980388b25",
+                "reference": "a2b5d7dbd52c7f036959d227fa15e0d980388b25",
                 "shasum": ""
             },
             "require": {
@@ -5424,7 +5424,7 @@
                 "drupal/search_api": "1.23.0",
                 "drupal/select2": "1.13.0",
                 "drupal/shariff": "1.7",
-                "drupal/socialblue": "2.1.4",
+                "drupal/socialblue": "2.1.5",
                 "drupal/swiftmailer": "2.2.0",
                 "drupal/token": "1.10.0",
                 "drupal/ultimate_cron": "2.0-alpha5",
@@ -5573,11 +5573,7 @@
                         "3248175: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248175-2.patch"
                     },
                     "drupal/socialbase": {
-                        "As a LU I want to be able to see a preview of the user profile wherever I see a user": "https://www.drupal.org/files/issues/2022-03-28/preview-3267141-6.patch",
-                        "Display 'Follow' button on user profile page": "https://www.drupal.org/files/issues/2022-04-08/socialbase-follow-button-3260424-8.patch"
-                    },
-                    "drupal/socialblue": {
-                        "LU should be able to see the list of the users another user follow": "https://www.drupal.org/files/issues/2022-04-08/socialblue-user-follow-3272002-9.patch"
+                        "Revert: As a user I should receive an email confirmation when I enroll in an event": "https://www.drupal.org/files/issues/2022-05-03/socialbase-revert_accidentally_merged_and_released_changes_when_distro_pr_was_still_open-3273222-8.patch"
                     },
                     "drupal/update_helper": {
                         "3248189: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248189-2.patch"
@@ -5607,9 +5603,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.2.0"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.2.1"
             },
-            "time": "2022-04-26T09:05:22+00:00"
+            "time": "2022-05-04T12:38:29+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
