@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f8a74554506b1d17d610cdfeda6b2a3",
+    "content-hash": "0c8ebed32c8bcbe68981777ca77ae3fd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -67,7 +67,7 @@
             "version": "5.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aFarkas/lazysizes.git",
+                "url": "git@github.com:aFarkas/lazysizes.git",
                 "reference": "81cf774c6a7f4d8f7f3909e225a65d8acb10cb20"
             },
             "dist": {
@@ -1405,16 +1405,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.19",
+            "version": "9.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "d624ac0cb3aa7a720e4a78f9504f89c1ccfbd69c"
+                "reference": "49770254d6c7e65709b02db74c0e4e0c5964b6b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/d624ac0cb3aa7a720e4a78f9504f89c1ccfbd69c",
-                "reference": "d624ac0cb3aa7a720e4a78f9504f89c1ccfbd69c",
+                "url": "https://api.github.com/repos/drupal/core/zipball/49770254d6c7e65709b02db74c0e4e0c5964b6b8",
+                "reference": "49770254d6c7e65709b02db74c0e4e0c5964b6b8",
                 "shasum": ""
             },
             "require": {
@@ -1436,7 +1436,7 @@
                 "ext-spl": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "guzzlehttp/guzzle": "^6.5.2",
+                "guzzlehttp/guzzle": "^6.5.7",
                 "laminas/laminas-diactoros": "^2.1",
                 "laminas/laminas-feed": "^2.12",
                 "masterminds/html5": "^2.1",
@@ -1653,13 +1653,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.19"
+                "source": "https://github.com/drupal/core/tree/9.2.21"
             },
-            "time": "2022-05-11T21:48:06+00:00"
+            "time": "2022-06-10T19:08:36+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.19",
+            "version": "9.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1703,22 +1703,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.19"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.21"
             },
             "time": "2021-08-24T12:04:07+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.19",
+            "version": "9.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "6db2867771291404f9e1ddfc1cb978b93b48d7bb"
+                "reference": "50e4e9ccbc6152cec8870fabd58bbdbaa3643e2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/6db2867771291404f9e1ddfc1cb978b93b48d7bb",
-                "reference": "6db2867771291404f9e1ddfc1cb978b93b48d7bb",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/50e4e9ccbc6152cec8870fabd58bbdbaa3643e2d",
+                "reference": "50e4e9ccbc6152cec8870fabd58bbdbaa3643e2d",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.19",
+                "drupal/core": "9.2.21",
                 "egulias/email-validator": "2.1.25",
-                "guzzlehttp/guzzle": "6.5.5",
+                "guzzlehttp/guzzle": "6.5.7",
                 "guzzlehttp/promises": "1.4.1",
                 "guzzlehttp/psr7": "1.8.5",
                 "laminas/laminas-diactoros": "2.6.0",
@@ -1790,9 +1790,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.19"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.21"
             },
-            "time": "2022-05-11T21:48:06+00:00"
+            "time": "2022-06-10T19:08:36+00:00"
         },
         {
             "name": "drupal/crop",
@@ -2176,17 +2176,17 @@
         },
         {
             "name": "drupal/embed",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/embed.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "09a2bda039bfbb3fff01c91964384bf3d924b8c5"
+                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "88a447329d16988459e82392443e96d441d651b2"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -2194,8 +2194,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1590176831",
+                    "version": "8.x-1.5",
+                    "datestamp": "1653500382",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3294,39 +3294,37 @@
         },
         {
             "name": "drupal/jquery_ui_touch_punch",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/jquery_ui_touch_punch.git",
-                "reference": "1.0.0"
+                "reference": "1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jquery_ui_touch_punch-1.0.0.zip",
-                "reference": "1.0.0",
-                "shasum": "8444a0ed897ba3d8e8876a9602ec8b3dca678cd1"
+                "url": "https://ftp.drupal.org/files/projects/jquery_ui_touch_punch-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "b43aad846b3c5a9501fb15f356144ff1e6bb2e24"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
-                "drupal/jquery_ui": "^1.0"
-            },
-            "suggest": {
-                "furf/jquery-ui-touch-punch": "Required to use drupal/jquery_ui_touch_punch module."
+                "drupal/jquery_ui": "^1.0",
+                "politsin/jquery-ui-touch-punch": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0",
-                    "datestamp": "1591893292",
+                    "version": "1.0.1",
+                    "datestamp": "1654879041",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3343,8 +3341,7 @@
             ],
             "support": {
                 "source": "https://www.drupal.org/project/jquery_ui_touch_punch",
-                "issues": "https://www.drupal.org/project/issues/jquery_ui_touch_punch",
-                "irc": "irc://irc.freenode.org/drupal-contribute"
+                "issues": "https://www.drupal.org/project/issues/jquery_ui_touch_punch"
             }
         },
         {
@@ -4483,17 +4480,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.2.1",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.2.1"
+                "reference": "2.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.2.1.zip",
-                "reference": "2.2.1",
-                "shasum": "f883a8476e9bdae75f020108935c88072298f843"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.2.3.zip",
+                "reference": "2.2.3",
+                "shasum": "a769e6bbc768284b87f9820435b6cb6b71bd0c71"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4502,8 +4499,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.2.1",
-                    "datestamp": "1652693676",
+                    "version": "2.2.3",
+                    "datestamp": "1655793264",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4561,27 +4558,27 @@
         },
         {
             "name": "drupal/socialblue",
-            "version": "2.2.2",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialblue.git",
-                "reference": "2.2.2"
+                "reference": "2.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialblue-2.2.2.zip",
-                "reference": "2.2.2",
-                "shasum": "8a495236c5261115038bceecd9fd47d668482446"
+                "url": "https://ftp.drupal.org/files/projects/socialblue-2.2.4.zip",
+                "reference": "2.2.4",
+                "shasum": "ff91c7eac3a90ff9ebafada32d5d64d543291e05"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
-                "drupal/socialbase": "2.2.1"
+                "drupal/socialbase": "2.2.3"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.2.2",
-                    "datestamp": "1652694475",
+                    "version": "2.2.4",
+                    "datestamp": "1655793809",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5178,7 +5175,7 @@
             "extra": {
                 "drupal": {
                     "version": "2.0.0",
-                    "datestamp": "1641878440",
+                    "datestamp": "1641878549",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5414,16 +5411,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "11.3.0",
+            "version": "11.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "ce7ba22079404db7207010c99067c0b1bf0a763d"
+                "reference": "a24e5f6d3869649f8d3c4535bb985457299ef92d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/ce7ba22079404db7207010c99067c0b1bf0a763d",
-                "reference": "ce7ba22079404db7207010c99067c0b1bf0a763d",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/a24e5f6d3869649f8d3c4535bb985457299ef92d",
+                "reference": "a24e5f6d3869649f8d3c4535bb985457299ef92d",
                 "shasum": ""
             },
             "require": {
@@ -5473,7 +5470,7 @@
                 "drupal/select2": "1.13.0",
                 "drupal/shariff": "1.7",
                 "drupal/social_tour": "1.0.0-alpha2",
-                "drupal/socialblue": "2.2.2",
+                "drupal/socialblue": "2.2.4",
                 "drupal/swiftmailer": "2.2.0",
                 "drupal/token": "1.10.0",
                 "drupal/ultimate_cron": "2.0-alpha5",
@@ -5619,7 +5616,7 @@
                         "3248183: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248183-2.patch"
                     },
                     "drupal/socialbase": {
-                        "Revert: As a user I should receive an email confirmation when I enroll in an event": "https://www.drupal.org/files/issues/2022-05-03/socialbase-revert_accidentally_merged_and_released_changes_when_distro_pr_was_still_open-3273222-8.patch"
+                        "Revert: As a user I should receive an email confirmation when I enroll in an event": "https://www.drupal.org/files/issues/2022-06-28/socialbase-revert_accidentally_merged_and_released_changes_when_distro_pr_was_still_open-3273222-17.patch"
                     },
                     "drupal/update_helper": {
                         "3248189: Symfony 4.4 event dispatcher parameter order change": "https://www.drupal.org/files/issues/2021-11-08/symfony-4-4-event-dispatcher-parameter-order-change-3248189-2.patch"
@@ -5649,22 +5646,22 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/11.3.0"
+                "source": "https://github.com/goalgorilla/open_social/tree/11.3.5"
             },
-            "time": "2022-05-24T09:15:16+00:00"
+            "time": "2022-07-05T08:54:05+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.5",
+            "version": "6.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+                "reference": "724562fa861e21a4071c652c8a159934e4f05592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/724562fa861e21a4071c652c8a159934e4f05592",
+                "reference": "724562fa861e21a4071c652c8a159934e4f05592",
                 "shasum": ""
             },
             "require": {
@@ -5702,9 +5699,39 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
             "description": "Guzzle is a PHP HTTP client library",
@@ -5720,9 +5747,23 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/6.5"
+                "source": "https://github.com/guzzle/guzzle/tree/6.5.7"
             },
-            "time": "2020-06-16T21:01:06+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-09T21:36:50+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -6510,16 +6551,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0"
+                "reference": "5579edf28aee1190a798bfa5be8bc16c563bd524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/247918972acd74356b0a91dfaa5adcaec069b6c0",
-                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5579edf28aee1190a798bfa5be8bc16c563bd524",
+                "reference": "5579edf28aee1190a798bfa5be8bc16c563bd524",
                 "shasum": ""
             },
             "require": {
@@ -6598,7 +6639,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.6.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.7.0"
             },
             "funding": [
                 {
@@ -6610,7 +6651,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-10T09:36:00+00:00"
+            "time": "2022-06-09T08:59:12+00:00"
         },
         {
             "name": "npm-asset/autosize",
@@ -6782,10 +6823,10 @@
         },
         {
             "name": "npm-asset/morris.js06",
-            "version": "0.6.6",
+            "version": "0.6.9",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/morris.js06/-/morris.js06-0.6.6.tgz"
+                "url": "https://registry.npmjs.org/morris.js06/-/morris.js06-0.6.9.tgz"
             },
             "require": {
                 "npm-asset/raphael": ">=2.2.7,<3.0.0"
@@ -6833,15 +6874,15 @@
         },
         {
             "name": "npm-asset/prop-types",
-            "version": "15.7.2",
+            "version": "15.8.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
+                "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
             },
             "require": {
                 "npm-asset/loose-envify": ">=1.4.0,<2.0.0",
                 "npm-asset/object-assign": ">=4.1.1,<5.0.0",
-                "npm-asset/react-is": ">=16.8.1,<17.0.0"
+                "npm-asset/react-is": ">=16.13.1,<17.0.0"
             },
             "type": "npm-asset",
             "license": [
@@ -6903,7 +6944,7 @@
             "version": "v16.14.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/react.git",
+                "url": "git@github.com:facebook/react.git",
                 "reference": "4337c1c00609ec8d7ae399c736e9d37bb159fac5"
             },
             "dist": {
@@ -7337,6 +7378,44 @@
             "time": "2021-12-17T19:44:54+00:00"
         },
         {
+            "name": "politsin/jquery-ui-touch-punch",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/politsin/jquery-ui-touch-punch.git",
+                "reference": "2fe375e05821e267f0f3c0e063197f5c406896dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/politsin/jquery-ui-touch-punch/zipball/2fe375e05821e267f0f3c0e063197f5c406896dd",
+                "reference": "2fe375e05821e267f0f3c0e063197f5c406896dd",
+                "shasum": ""
+            },
+            "type": "drupal-library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Furfero",
+                    "email": "furf@furf.com"
+                }
+            ],
+            "description": "Extension to jQuery UI for mobile touch event support.",
+            "homepage": "http://touchpunch.furf.com/",
+            "keywords": [
+                "gestures",
+                "mobile",
+                "touch"
+            ],
+            "support": {
+                "issues": "https://github.com/politsin/jquery-ui-touch-punch/issues",
+                "source": "https://github.com/politsin/jquery-ui-touch-punch/tree/1.0"
+            },
+            "time": "2020-12-15T10:26:18+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -7637,16 +7716,16 @@
         },
         {
             "name": "spatie/color",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/color.git",
-                "reference": "351f82e8a6354a7858a86391c181ae015dbd7048"
+                "reference": "d6e9b2766d8e24aab835e414248728762bd63530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/color/zipball/351f82e8a6354a7858a86391c181ae015dbd7048",
-                "reference": "351f82e8a6354a7858a86391c181ae015dbd7048",
+                "url": "https://api.github.com/repos/spatie/color/zipball/d6e9b2766d8e24aab835e414248728762bd63530",
+                "reference": "d6e9b2766d8e24aab835e414248728762bd63530",
                 "shasum": ""
             },
             "require": {
@@ -7683,7 +7762,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/color/issues",
-                "source": "https://github.com/spatie/color/tree/1.5.1"
+                "source": "https://github.com/spatie/color/tree/1.5.2"
             },
             "funding": [
                 {
@@ -7691,7 +7770,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-12T14:45:41+00:00"
+            "time": "2022-06-24T21:50:06+00:00"
         },
         {
             "name": "stack/builder",
@@ -8108,6 +8187,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2021-05-26T17:39:37+00:00"
         },
         {
@@ -8495,16 +8575,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.39",
+            "version": "v4.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35"
+                "reference": "815412ee8971209bd4c1eecd5f4f481eacd44bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/72a5b35fecaa670b13954e6eaf414acbe2a67b35",
-                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/815412ee8971209bd4c1eecd5f4f481eacd44bf5",
+                "reference": "815412ee8971209bd4c1eecd5f4f481eacd44bf5",
                 "shasum": ""
             },
             "require": {
@@ -8538,7 +8618,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v4.4.39"
+                "source": "https://github.com/symfony/filesystem/tree/v4.4.42"
             },
             "funding": [
                 {
@@ -8554,7 +8634,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T10:38:15+00:00"
+            "time": "2022-05-20T08:49:14+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -9301,16 +9381,16 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.25.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "9a142215a36a3888e30d0a9eeea9766764e96976"
+                "reference": "bf44a9fd41feaac72b074de600314a93e2ae78e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9a142215a36a3888e30d0a9eeea9766764e96976",
-                "reference": "9a142215a36a3888e30d0a9eeea9766764e96976",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/bf44a9fd41feaac72b074de600314a93e2ae78e2",
+                "reference": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
                 "shasum": ""
             },
             "require": {
@@ -9319,7 +9399,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9357,7 +9437,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.25.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.26.0"
             },
             "funding": [
                 {
@@ -9373,20 +9453,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T09:17:38+00:00"
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.25.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "cc5db0e22b3cb4111010e48785a97f670b350ca5"
+                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/cc5db0e22b3cb4111010e48785a97f670b350ca5",
-                "reference": "cc5db0e22b3cb4111010e48785a97f670b350ca5",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/e440d35fa0286f77fb45b79a03fedbeda9307e85",
+                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
                 "shasum": ""
             },
             "require": {
@@ -9395,7 +9475,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -9436,7 +9516,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.25.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.26.0"
             },
             "funding": [
                 {
@@ -9452,7 +9532,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-05T21:20:04+00:00"
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
