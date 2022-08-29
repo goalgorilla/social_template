@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "goalgorilla/open_social": "~11.4.0",
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "monolog/monolog": "^2.3.5"
     },
     "repositories": [
