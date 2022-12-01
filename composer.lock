@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de9475ec1d01c61889cfc2c117b50756",
+    "content-hash": "47c1c42fd8390ed5f7c541b6e1182937",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4892,17 +4892,17 @@
         },
         {
             "name": "drupal/socialbase",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/socialbase.git",
-                "reference": "2.3.2"
+                "reference": "2.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/socialbase-2.3.2.zip",
-                "reference": "2.3.2",
-                "shasum": "0efd8da56d0d21f5c71d175c1e47731ab85db5ee"
+                "url": "https://ftp.drupal.org/files/projects/socialbase-2.3.4.zip",
+                "reference": "2.3.4",
+                "shasum": "92a508a0230f5ff07327327a1f01a2c24b0cf125"
             },
             "require": {
                 "drupal/bootstrap": "3.23",
@@ -4911,8 +4911,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.3.2",
-                    "datestamp": "1668419534",
+                    "version": "2.3.4",
+                    "datestamp": "1669832199",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -11975,7 +11975,14 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "drupal/socialbase",
+            "version": "2.3.4.0",
+            "alias": "2.3.2",
+            "alias_normalized": "2.3.2.0"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
