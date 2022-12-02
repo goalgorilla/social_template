@@ -6,10 +6,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~11.4.0",
+        "goalgorilla/open_social": "~11.5.0",
         "php": "^7.4 || ^8.0",
-        "monolog/monolog": "^2.3.5",
-        "drupal/socialbase": "2.3.4 as 2.3.2"
+        "monolog/monolog": "^2.3.5"
     },
     "repositories": [
         {
