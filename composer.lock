@@ -6183,16 +6183,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "12.0.3",
+            "version": "12.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "009db9863ee31d0be6c81cabf15c20a812f9cb05"
+                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/009db9863ee31d0be6c81cabf15c20a812f9cb05",
-                "reference": "009db9863ee31d0be6c81cabf15c20a812f9cb05",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/e151cb9a4b7f67fc5f7d81a370757356c266d094",
+                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094",
                 "shasum": ""
             },
             "require": {
@@ -6325,7 +6325,8 @@
                         "2924783 - Fatal error on entity autocomplete widget if entity label contains parentheses": "https://www.drupal.org/files/issues/2021-04-18/2924783-18.patch",
                         "Issue #3397494: Revert the runtime exception for permissions until we have fixed them all correctly": "https://www.drupal.org/files/issues/2023-10-29/3397494-revert-runtimeexception-untill-permissions-fixed.patch",
                         "States API doesn't work with multiple select fields": "https://www.drupal.org/files/issues/2023-10-31/states-api-doesnt-work-with-multiselect-fields-1149078-184.patch",
-                        "Issue #3395358 - Redirecting a request during delete an entity when the redirect are disabled": "https://www.drupal.org/files/issues/2023-10-19/drupal-redirect-disable-validation-on-delete-entity-3395358-2.patch"
+                        "Issue #3395358 - Redirecting a request during delete an entity when the redirect are disabled": "https://www.drupal.org/files/issues/2023-10-19/drupal-redirect-disable-validation-on-delete-entity-3395358-2.patch",
+                        "Issue #3415547 - Backport Core issue to 10.0.x": "https://www.drupal.org/files/issues/2024-01-18/3415447-2.patch"
                     },
                     "drupal/dynamic_entity_reference": {
                         "Return the same content list after content type is changed": "https://www.drupal.org/files/issues/2021-08-27/dynamic_entity_reference-the_same_content_list-3230158-2.patch"
@@ -6394,9 +6395,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/12.0.3"
+                "source": "https://github.com/goalgorilla/open_social/tree/12.0.4"
             },
-            "time": "2024-01-16T15:35:27+00:00"
+            "time": "2024-01-18T09:23:05+00:00"
         },
         {
             "name": "goalgorilla/open_social_upgrade_patches",
