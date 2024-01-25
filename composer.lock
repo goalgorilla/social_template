@@ -6183,16 +6183,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "12.0.4",
+            "version": "12.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094"
+                "reference": "5a75f6c062068c8b67d5a068cd64ca105f062ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/e151cb9a4b7f67fc5f7d81a370757356c266d094",
-                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/5a75f6c062068c8b67d5a068cd64ca105f062ca0",
+                "reference": "5a75f6c062068c8b67d5a068cd64ca105f062ca0",
                 "shasum": ""
             },
             "require": {
@@ -6395,9 +6395,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/12.0.4"
+                "source": "https://github.com/goalgorilla/open_social/tree/12.0.5"
             },
-            "time": "2024-01-18T09:23:05+00:00"
+            "time": "2024-01-24T09:01:17+00:00"
         },
         {
             "name": "goalgorilla/open_social_upgrade_patches",
