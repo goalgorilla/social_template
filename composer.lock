@@ -6320,16 +6320,16 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "12.3.0",
+            "version": "12.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "7f0fe0a2b5174f9f5e8c3961a5580d75f3b6d0d6"
+                "reference": "b892b9f03e158d03ef4bc47e60ac6fbed890d950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/7f0fe0a2b5174f9f5e8c3961a5580d75f3b6d0d6",
-                "reference": "7f0fe0a2b5174f9f5e8c3961a5580d75f3b6d0d6",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/b892b9f03e158d03ef4bc47e60ac6fbed890d950",
+                "reference": "b892b9f03e158d03ef4bc47e60ac6fbed890d950",
                 "shasum": ""
             },
             "require": {
@@ -6500,6 +6500,9 @@
                     "drupal/search_api": {
                         "Ensure field definition allowed values callbacks are used for field filter callbacks": "https://www.drupal.org/files/issues/2023-12-26/views_filter_options_callback--2949022-17.patch"
                     },
+                    "drupal/socialblue": {
+                        "Issue #3427426: Custom color being ignored for logged user in Search page": "https://www.drupal.org/files/issues/2024-03-12/socialblue-add-hero-css-file-to-be-overwritten-custom-color-3427426-4.patch"
+                    },
                     "drupal/token": {
                         "Ajax call is broken due to token check": "https://www.drupal.org/files/issues/2023-11-10/token-3218969-breaks-some-ajax-forms-3397358-7.patch"
                     },
@@ -6543,9 +6546,9 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/12.3.0"
+                "source": "https://github.com/goalgorilla/open_social/tree/12.3.2"
             },
-            "time": "2024-03-19T12:43:34+00:00"
+            "time": "2024-03-26T08:18:02+00:00"
         },
         {
             "name": "goalgorilla/open_social_upgrade_patches",
