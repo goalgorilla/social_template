@@ -2,12 +2,13 @@
     "name": "goalgorilla/social_template",
     "description": "Social project template for composer based Open Social projects.",
     "type": "project",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~12.4.0",
-        "php": "^8.0",
+        "goalgorilla/open_social": "~14.0.0",
+        "drupal/simple_oauth": "~6.0.10",
+        "php": "^8.3",
         "monolog/monolog": "^2.3.5"
     },
     "repositories": [
@@ -67,6 +68,11 @@
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
             "zaporylie/composer-drupal-optimizations": true
+        },
+        "audit": {
+            "ignore": {
+                "SA-CONTRIB-2026-219": "Open Social 14.0.x requires drupal/gin ^3.0; all 3.x releases are affected by this XSS advisory (fixed in Gin 4.1.4+/5.0.16+). Remove once Open Social supports a fixed Gin version."
+            }
         }
     }
 }
